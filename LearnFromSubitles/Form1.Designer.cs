@@ -225,7 +225,7 @@ namespace LearnFromSubitles
             this.txtInterval.Name = "txtInterval";
             this.txtInterval.Size = new System.Drawing.Size(75, 20);
             this.txtInterval.TabIndex = 26;
-            this.txtInterval.Text = "15";
+            this.txtInterval.Text = "30";
             // 
             // MainForm
             // 

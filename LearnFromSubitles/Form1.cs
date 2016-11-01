@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
+
 using LearnFromSubitles.Models;
 
 namespace LearnFromSubitles
@@ -21,9 +19,7 @@ namespace LearnFromSubitles
 
         private void btnBrowseDirectory_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog fbd = new FolderBrowserDialog();
-
-            DialogResult result = fbd.ShowDialog();
+            var fbd = new FolderBrowserDialog();
 
             if (!string.IsNullOrWhiteSpace(fbd.SelectedPath))
             {
@@ -65,76 +61,29 @@ namespace LearnFromSubitles
 
             var videoFiles = files.Where(f => !string.IsNullOrWhiteSpace(f.Extension) && videoExtensions.Contains(f.Extension.ToLower()));
 
+            var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
+
             foreach (var videoFile in videoFiles)
             {
-                var currentSecond = 0;
-                var playList = new Playlist();
-
+                
                 var targetSubFile = string.Format("{0}.{1}.srt", videoFile, txtTargetPrefix.Text);
                 var helperSubFile = string.Format("{0}.{1}.srt", videoFile, txtHelperPrefix.Text);
 
-                var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
+                var fullTargetSubFile = new FileInfo(string.Format("{0}{1}", txtDirectoryPath.Text, targetSubFile));
 
-                var fullTargetSubFile = string.Format("{0}{1}", txtDirectoryPath.Text, targetSubFile);
-                using (var fileStream = File.OpenRead(fullTargetSubFile))
+                var fullHelperSubFile = new FileInfo(string.Format("{0}{1}", txtDirectoryPath.Text, helperSubFile)); ;
+
+                var videoInfo = new VideoInfo
                 {
-                    var items = parser.ParseStream(fileStream, Encoding.UTF8);
-
-                    var lastItem = items.LastOrDefault();
-
-                    while (lastItem != null && currentSecond < lastItem.EndTime)
-                    {
-                        var newEndTime = currentSecond + (interval * 1000);
-                        var contains = items.Any(i => i.StartTime >= currentSecond && i.EndTime <= newEndTime);
-
-                        // if false add only original, if true add both
-                        var startTime = currentSecond > 0 ? (currentSecond / 1000 - 5) : 0;
-                        var endTime = startTime + interval + 5;
-
-                        var vlcTargetTrack = new Playlist.VlcTrack
-                        {
-                            StartTime = startTime,
-                            EndTime = endTime,
-                            MediaFile = videoFile.ToString(),
-                            Name = string.Format("{0} - {1}", startTime, videoFile),
-                            SubFile = helperSubFile
-                        };
-
-                        playList.AddTrack(vlcTargetTrack);
-
-                        if (contains)
-                        {
-                            var vlcHelperTrack = new Playlist.VlcTrack
-                            {
-                                StartTime = startTime,
-                                EndTime = endTime,
-                                MediaFile = videoFile.ToString(),
-                                Name = string.Format("{0} - {1}", startTime, videoFile),
-                                SubFile = targetSubFile
-                            };
-
-                            playList.AddTrack(vlcHelperTrack);
-                        }
-
-                        currentSecond = newEndTime;
-                    }
-                }
-
-                // add last segment
-                var lastTrack = new Playlist.VlcTrack
-                {
-                    StartTime = (currentSecond / 1000) - 5,
-                    EndTime = 0,
-                    MediaFile = videoFile.ToString(),
-                    Name = videoFile.ToString(),
-                    SubFile = targetSubFile
+                    TargetSubFile = fullTargetSubFile,
+                    HerlperSubFile = fullHelperSubFile,
+                    VideoFile = videoFile,
+                    Interval = interval
                 };
 
-                playList.AddTrack(lastTrack);
+                var videoPlayList = PlayListGenerator.GeneratePlayList(videoInfo, parser);
 
-                var videoPlayList = playList.ToString();
-
-                File.WriteAllText(string.Format("{0}{1}.xspf", txtDirectoryPath.Text, videoFile), videoPlayList);
+                File.WriteAllText(string.Format("{0}{1}.xspf", txtDirectoryPath.Text, videoFile), videoPlayList.ToString());
             }
 
             MessageBox.Show("Done", "Done");
@@ -142,4 +91,3 @@ namespace LearnFromSubitles
         }
     }
 }
-

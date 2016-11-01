@@ -1,0 +1,1128 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+Timer: 100,0000
+Video Aspect Ratio: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H00FFFFFF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,2,10,10,10,0
+Style: Top,Arial,20,&H001CE1FF,&H0022FFFF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,0
+Style: Mid,Arial,20,&H0000FFFF,&H00FFFFFF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,5,10,10,10,0
+Style: Bot,Arial,20,&H00FFFFFF,&H00FFFFFF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,2,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:01.00,00:00:03.00,Mid,,0000,0000,0000,,Merged with 2SRT2ASS\N(http://pas-bien.net/2srt2ass/)
+Dialogue: 0,00:00:15.00,00:00:20.20,Top,,0000,0000,0000,,THE INVASION
+Dialogue: 0,00:01:03.30,00:01:06.50,Bot,,0000,0000,0000,,Puisque je vous dit que\Nje n'ai plus de sulfamide.
+Dialogue: 0,00:01:05.00,00:01:07.00,Top,,0000,0000,0000,,I told you, I no longer have any sulfonamide.
+Dialogue: 0,00:01:07.02,00:01:09.52,Top,,0000,0000,0000,,Just be sure to send me some.
+Dialogue: 0,00:01:07.10,00:01:08.60,Bot,,0000,0000,0000,,Débrouillez-vous pour m'en envoyer.
+Dialogue: 0,00:01:08.60,00:01:12.80,Bot,,0000,0000,0000,,Ecoutez, on risque de voir arriver des centaines\Nde réfugiés dans les jours qui viennent.
+Dialogue: 0,00:01:09.80,00:01:13.36,Top,,0000,0000,0000,,Look, we could see hundreds of\Nrefugees in the coming days.
+Dialogue: 0,00:01:12.80,00:01:16.20,Bot,,0000,0000,0000,,alors il me faut des trousses\Nd'urgence, des pansements, du sérum...
+Dialogue: 0,00:01:13.60,00:01:16.51,Top,,0000,0000,0000,,So I need emergency kits, dressings, serum ...
+Dialogue: 0,00:01:16.20,00:01:19.30,Bot,,0000,0000,0000,,Je sais que les trains ne passent pas.
+Dialogue: 0,00:01:18.13,00:01:20.56,Top,,0000,0000,0000,,I know the trains won't be running.
+Dialogue: 0,00:01:20.30,00:01:23.30,Bot,,0000,0000,0000,,.. mais envoyez-moi un camion,\Nune ambulance, quelque chose...
+Dialogue: 0,00:01:20.63,00:01:24.16,Top,,0000,0000,0000,,Send me a lorry, an ambulance anything.
+Dialogue: 0,00:01:26.30,00:01:29.20,Bot,,0000,0000,0000,,Les Allemands ont percé à Besançon.
+Dialogue: 0,00:01:28.48,00:01:30.90,Top,,0000,0000,0000,,The Germans have reached Besançon.
+Dialogue: 0,00:01:31.20,00:01:32.90,Bot,,0000,0000,0000,,Mon Dieu !
+Dialogue: 0,00:01:32.10,00:01:33.83,Top,,0000,0000,0000,,My God !
+Dialogue: 0,00:01:32.90,00:01:34.20,Bot,,0000,0000,0000,,C'est la fin.
+Dialogue: 0,00:01:34.01,00:01:35.81,Top,,0000,0000,0000,,It's the end.
+Dialogue: 0,00:01:34.20,00:01:37.60,Bot,,0000,0000,0000,,Et tu vas quand même aller\Nfaire ton accouchement ?
+Dialogue: 0,00:01:35.91,00:01:38.30,Top,,0000,0000,0000,,And you're still going to go\Nand deliver the child ?
+Dialogue: 0,00:01:37.61,00:01:40.71,Bot,,0000,0000,0000,,Cet enfant ne va pas rester dans le ventre\Nde sa mère parce que les Allemands arrivent !
+Dialogue: 0,00:01:38.31,00:01:41.41,Top,,0000,0000,0000,,A baby won't wait because the Germans are coming !
+Dialogue: 0,00:01:40.71,00:01:45.01,Bot,,0000,0000,0000,,Dès que la ligne sera rétablie, rappelle la\Ncentrale de Besançon pour avoir des médicaments.
+Dialogue: 0,00:01:41.95,00:01:45.87,Top,,0000,0000,0000,,As soon as the line's restored\Ncall the Besançon depot for more drugs.
+Dialogue: 0,00:01:46.21,00:01:48.27,Top,,0000,0000,0000,,And cancel all visits.
+Dialogue: 0,00:01:47.01,00:01:48.31,Bot,,0000,0000,0000,,Et annule toutes les visites.
+Dialogue: 0,00:01:49.01,00:01:51.03,Top,,0000,0000,0000,,.. except those which seem vital..
+Dialogue: 0,00:01:49.31,00:01:50.61,Bot,,0000,0000,0000,,Sauf si vraiment ça te semble vital.
+Dialogue: 0,00:01:51.61,00:01:54.01,Bot,,0000,0000,0000,,Et qu'est-ce que je leur dis ?\NQue les Allemands arrivent ?
+Dialogue: 0,00:01:52.31,00:01:54.71,Top,,0000,0000,0000,,What do I tell them ? The Germans are arriving ?
+Dialogue: 0,00:01:54.01,00:01:56.31,Bot,,0000,0000,0000,,Non, surtout pas, ça\Ndéclencherait la panique.
+Dialogue: 0,00:01:55.04,00:01:57.34,Top,,0000,0000,0000,,No, absolutely not. That will trigger a panic.
+Dialogue: 0,00:01:57.37,00:02:00.27,Top,,0000,0000,0000,,You could say that...\NI'll think of something.
+Dialogue: 0,00:01:58.31,00:01:59.61,Bot,,0000,0000,0000,,Tu dis que... Je trouverai.
+Dialogue: 0,00:02:01.61,00:02:04.01,Bot,,0000,0000,0000,,Papa vient d'appeler. Il dit\Nque les Allemands sont à Lyon.
+Dialogue: 0,00:02:02.18,00:02:04.39,Top,,0000,0000,0000,,Papa just called, he says the Germans are in Lyon.
+Dialogue: 0,00:02:04.01,00:02:06.51,Bot,,0000,0000,0000,,Les Allemands, on nous les annonce depuis\N2 semaines. On ne voit rien venir.
+Dialogue: 0,00:02:04.48,00:02:07.10,Top,,0000,0000,0000,,The Germans have been threatening for two weeks.\NI can't see them coming here.
+Dialogue: 0,00:02:06.51,00:02:08.01,Bot,,0000,0000,0000,,On va leur refaire la bataille de la Marne.
+Dialogue: 0,00:02:07.13,00:02:08.53,Top,,0000,0000,0000,,We'll have to send the boy away.
+Dialogue: 0,00:02:08.02,00:02:10.92,Bot,,0000,0000,0000,,Oui. Mais en tout cas je ne veux pas qu'il fasse\Nsa sortie avec l'école. Ce n'est pas prudent.
+Dialogue: 0,00:02:08.55,00:02:11.15,Top,,0000,0000,0000,,Yes, but I don't want him to go\Nwith the school. It's not wise.
+Dialogue: 0,00:02:10.92,00:02:12.92,Bot,,0000,0000,0000,,Qu'est-ce que tu racontes ? Les\NBoches sont à plus de 100 km.
+Dialogue: 0,00:02:11.18,00:02:13.65,Top,,0000,0000,0000,,What are you talking about.\NThe Boches are only 100km away.
+Dialogue: 0,00:02:12.92,00:02:15.12,Bot,,0000,0000,0000,,Une armée, ça n'avance pas\Nde 100 km en une journée !
+Dialogue: 0,00:02:13.66,00:02:15.56,Top,,0000,0000,0000,,... but the army can't advance\N100km in a day !
+Dialogue: 0,00:02:15.12,00:02:16.62,Bot,,0000,0000,0000,,Qu'est-ce que tu y connais, toi ?
+Dialogue: 0,00:02:15.90,00:02:17.54,Top,,0000,0000,0000,,What do you know about it ?
+Dialogue: 0,00:02:17.62,00:02:19.62,Bot,,0000,0000,0000,,Mais maman, tous mes copains,\Nils y vont.
+Dialogue: 0,00:02:18.01,00:02:20.13,Top,,0000,0000,0000,,But Maman, all my friends are going.
+Dialogue: 0,00:02:19.62,00:02:22.02,Bot,,0000,0000,0000,,Tu es sûr qu'il ne risque rien ?\N100 km, Jeannine !
+Dialogue: 0,00:02:20.44,00:02:22.99,Top,,0000,0000,0000,,Are you sure it's not risky ?\NA hundred kilometres  Jeannine !
+Dialogue: 0,00:02:23.02,00:02:26.62,Bot,,0000,0000,0000,,Bon. Ben, puisque ça te fait\Ntellement plaisir, c'est d'accord. Oui !
+Dialogue: 0,00:02:23.61,00:02:26.73,Top,,0000,0000,0000,,Good. Since it makes you happy.\NOK.
+Dialogue: 0,00:02:26.62,00:02:28.52,Bot,,0000,0000,0000,,Allez. Prépare-toi, bonhomme.
+Dialogue: 0,00:02:27.73,00:02:29.15,Top,,0000,0000,0000,,Get going. Get ready, pal.
+Dialogue: 0,00:02:28.52,00:02:29.82,Bot,,0000,0000,0000,,Et tu n'oublies pas\Nton masque à gaz, hein.
+Dialogue: 0,00:02:29.19,00:02:30.49,Top,,0000,0000,0000,,And don't forget your gas mask. Eh ?
+Dialogue: 0,00:02:29.82,00:02:34.62,Bot,,0000,0000,0000,,Madame, c'est terrible. Le commis du boucher vient de\Npasser. Nos poulets sont coincés à Lons-le-Saunier.
+Dialogue: 0,00:02:30.51,00:02:35.30,Top,,0000,0000,0000,,Madame, Madame. It's terrible, the butcher\Ncalled. The chickens are still at Lons-le-Saunier.
+Dialogue: 0,00:02:34.63,00:02:38.43,Bot,,0000,0000,0000,,Mais c'est incroyable, Sarah. Chaque fois c'est\Npareil. On ne peut rien vous confier d'important !
+Dialogue: 0,00:02:35.52,00:02:38.98,Top,,0000,0000,0000,,It's unbelievable, Sarah. Every time the same.\NI can't trust you with anything !
+Dialogue: 0,00:02:38.43,00:02:39.63,Bot,,0000,0000,0000,,On n'a qu'à faire la pièce de boeuf.
+Dialogue: 0,00:02:39.07,00:02:40.42,Top,,0000,0000,0000,,You can use the piece of beef.
+Dialogue: 0,00:02:39.63,00:02:42.53,Bot,,0000,0000,0000,,Non. On ne va pas manger du\Nbifteck pour mon anniversaire!
+Dialogue: 0,00:02:40.45,00:02:43.02,Top,,0000,0000,0000,,No. We're not eating beef on my birthday !
+Dialogue: 0,00:02:42.53,00:02:46.83,Bot,,0000,0000,0000,,Bon, bah, passe à la ferme prendre 3\Npoulets. Ce ne sera pas de la Bresse...
+Dialogue: 0,00:02:43.97,00:02:46.98,Top,,0000,0000,0000,,Good, get three chickens from the farm.\NIt won't be Bresse chicken, but ....
+Dialogue: 0,00:02:46.83,00:02:47.93,Bot,,0000,0000,0000,,Non, je ne vais pas\Nfaire 20 km pour 3 poulets !
+Dialogue: 0,00:02:47.08,00:02:48.93,Top,,0000,0000,0000,,I'm not going 20km for three chickens !
+Dialogue: 0,00:02:47.93,00:02:50.13,Bot,,0000,0000,0000,,Mais ce n'est pas pour 3\Npoulets, c'est pour moi.
+Dialogue: 0,00:02:49.09,00:02:51.29,Top,,0000,0000,0000,,But it's not just for three chickens,\NIt's for me.
+Dialogue: 0,00:02:50.13,00:02:52.43,Bot,,0000,0000,0000,,Bon, ben, je passerai\Navant la scierie.
+Dialogue: 0,00:02:51.33,00:02:53.76,Top,,0000,0000,0000,,OK, I'll go there before going to the sawmill.
+Dialogue: 0,00:02:53.43,00:02:56.03,Bot,,0000,0000,0000,,Je vous aime. Nous aussi !
+Dialogue: 0,00:02:54.46,00:02:57.06,Top,,0000,0000,0000,,I love you.\NMe too.
+Dialogue: 0,00:03:19.33,00:03:20.33,Bot,,0000,0000,0000,,Marie !
+Dialogue: 0,00:03:19.72,00:03:21.31,Top,,0000,0000,0000,,Marie !
+Dialogue: 0,00:03:22.33,00:03:24.73,Bot,,0000,0000,0000,,Marie ? Oui, M. Schwartz, je suis là.
+Dialogue: 0,00:03:22.84,00:03:26.22,Top,,0000,0000,0000,,Marie ?\NYes, Monsieur Schwartz, I'm here.
+Dialogue: 0,00:03:26.74,00:03:29.04,Bot,,0000,0000,0000,,Je suis là. Je ne vous dérange pas ?
+Dialogue: 0,00:03:28.62,00:03:29.92,Top,,0000,0000,0000,,I'm here.\NI'm not disturbing you ?
+Dialogue: 0,00:03:29.04,00:03:30.94,Bot,,0000,0000,0000,,Non. Des nouvelles de Laurain ?
+Dialogue: 0,00:03:29.94,00:03:31.56,Top,,0000,0000,0000,,No.\NAny news of Lorrain?
+Dialogue: 0,00:03:30.94,00:03:35.04,Bot,,0000,0000,0000,,Rien depuis sa lettre du 3. Mais ça ne veut rien\Ndire. La radio dit que le courrier marche très mal.
+Dialogue: 0,00:03:31.66,00:03:35.59,Top,,0000,0000,0000,,Nothing since his letter of the 3rd.That means nothing.\NThe radio says the Post is backed up.
+Dialogue: 0,00:03:35.04,00:03:37.74,Bot,,0000,0000,0000,,J'étais venu chercher 3 poulets\Npour l'anniversaire de Jeannine.
+Dialogue: 0,00:03:35.87,00:03:38.15,Top,,0000,0000,0000,,I need three chickens for Jeannine's birthday.
+Dialogue: 0,00:03:37.74,00:03:39.84,Bot,,0000,0000,0000,,Il y a un problème avec la boucherie.
+Dialogue: 0,00:03:38.18,00:03:40.28,Top,,0000,0000,0000,,There's a problem at the butchers.
+Dialogue: 0,00:03:39.84,00:03:41.04,Bot,,0000,0000,0000,,Vous êtes sure que je\Nne vous dérange pas ?
+Dialogue: 0,00:03:40.98,00:03:42.18,Top,,0000,0000,0000,,You're sure I'm not disturbing you.
+Dialogue: 0,00:03:41.04,00:03:44.04,Bot,,0000,0000,0000,,Non, non, non. Je suis juste en train\Nd'essayer de déplacer le bahut du salon.
+Dialogue: 0,00:03:42.21,00:03:45.21,Top,,0000,0000,0000,,No, no, I'm just trying\Nto move the living room chest.
+Dialogue: 0,00:03:44.04,00:03:45.84,Bot,,0000,0000,0000,,Il pèse.
+Dialogue: 0,00:03:45.49,00:03:46.61,Top,,0000,0000,0000,,It's heavy.
+Dialogue: 0,00:03:45.84,00:03:48.24,Bot,,0000,0000,0000,,Je vais vous aider, moi.
+Dialogue: 0,00:03:46.87,00:03:48.79,Top,,0000,0000,0000,,I'll help you, Marie.
+Dialogue: 0,00:03:53.24,00:03:55.84,Bot,,0000,0000,0000,,C'est bon... Maintenant à vous.
+Dialogue: 0,00:03:53.73,00:03:56.33,Top,,0000,0000,0000,,That's good... Now you.
+Dialogue: 0,00:04:05.85,00:04:06.65,Bot,,0000,0000,0000,,Voilà.
+Dialogue: 0,00:04:06.08,00:04:07.45,Top,,0000,0000,0000,,There.
+Dialogue: 0,00:04:07.24,00:04:09.94,Bot,,0000,0000,0000,,Qu'est-ce qui vous a\Npris de bouger ce truc?
+Dialogue: 0,00:04:08.93,00:04:10.87,Top,,0000,0000,0000,,What does it take to move this thing ?
+Dialogue: 0,00:04:10.25,00:04:11.45,Bot,,0000,0000,0000,,Bah, je ne sais pas.
+Dialogue: 0,00:04:10.96,00:04:12.66,Top,,0000,0000,0000,,I don't know.
+Dialogue: 0,00:04:11.45,00:04:16.35,Bot,,0000,0000,0000,,En faisant la traite ce matin, je me suis dit tiens\Nle bahut serait mieux sur le mur à côté de la cheminée.
+Dialogue: 0,00:04:13.07,00:04:17.27,Top,,0000,0000,0000,,While milking this morning I thought it would\Nbe better along the wall, by the fireplace.
+Dialogue: 0,00:04:18.09,00:04:19.40,Top,,0000,0000,0000,,Marie !
+Dialogue: 0,00:04:19.35,00:04:21.05,Bot,,0000,0000,0000,,Allez-y, tirez.
+Dialogue: 0,00:04:20.64,00:04:22.34,Top,,0000,0000,0000,,Go on then, pull.
+Dialogue: 0,00:04:35.05,00:04:36.55,Bot,,0000,0000,0000,,Excusez-moi.
+Dialogue: 0,00:04:36.00,00:04:37.77,Top,,0000,0000,0000,,Excuse me.
+Dialogue: 0,00:05:45.55,00:05:47.25,Bot,,0000,0000,0000,,Eh, t'as vu, mes poires?
+Dialogue: 0,00:05:46.25,00:05:48.44,Top,,0000,0000,0000,,Have you seen my pears ?\NYes.
+Dialogue: 0,00:05:49.15,00:05:51.12,Top,,0000,0000,0000,,When are you going to your cousin's in the Landes ?
+Dialogue: 0,00:05:49.25,00:05:51.55,Bot,,0000,0000,0000,,Ouais. Tu pars quand chez\Ntes cousins des Landes?
+Dialogue: 0,00:05:51.17,00:05:54.13,Top,,0000,0000,0000,,My mother refuses, she says it's too far.\NYou're sure ?
+Dialogue: 0,00:05:51.55,00:05:53.25,Bot,,0000,0000,0000,,Ma mère veut plus, elle dit que\Nc'est trop loin. T'es déçu ?
+Dialogue: 0,00:05:52.25,00:05:56.65,Bot,,0000,0000,0000,,Au début je faisais semblant de faire\Nla tête, mais je préfère rester ici.
+Dialogue: 0,00:05:54.36,00:05:57.16,Top,,0000,0000,0000,,At first I pretended to sulk,\Nbut I prefer to stay here.
+Dialogue: 0,00:05:57.65,00:06:00.15,Bot,,0000,0000,0000,,Comme ça on pourra rester\Ntout l'été ensemble!
+Dialogue: 0,00:05:58.35,00:06:00.85,Top,,0000,0000,0000,,That way we can stay together all Summer !
+Dialogue: 0,00:06:00.99,00:06:02.59,Top,,0000,0000,0000,,Perhaps we'll see fighting.
+Dialogue: 0,00:06:01.15,00:06:03.35,Bot,,0000,0000,0000,,Ah, peut-être qu'on verra des combats.
+Dialogue: 0,00:06:02.68,00:06:05.28,Top,,0000,0000,0000,,They're giving a concert on Friday\Nnear St Christopher's Church.
+Dialogue: 0,00:06:03.35,00:06:04.95,Bot,,0000,0000,0000,,On donne un concert vendredi\Nprochain à l'église Saint Christophe.
+Dialogue: 0,00:06:04.95,00:06:08.05,Bot,,0000,0000,0000,,C'est de l'orgue, une fantaisie de\NCouperin. J'ai pris deux billets.
+Dialogue: 0,00:06:05.57,00:06:09.08,Top,,0000,0000,0000,,It's an organ recital, a fantasy by Couperin.\NI have two tickets.
+Dialogue: 0,00:06:10.05,00:06:11.65,Bot,,0000,0000,0000,,Je peux vous aider, Emilie ?
+Dialogue: 0,00:06:10.43,00:06:12.03,Top,,0000,0000,0000,,Can I help you, Louis ?
+Dialogue: 0,00:06:11.65,00:06:15.45,Bot,,0000,0000,0000,,Eh bien, je serai ravie\Nde vous accompagner.
+Dialogue: 0,00:06:12.35,00:06:15.77,Top,,0000,0000,0000,,I'll be happy to accompany you.
+Dialogue: 0,00:06:15.45,00:06:18.95,Bot,,0000,0000,0000,,Mais vous croyez qu'ils vont maintenir\Nle concert avec les événements?
+Dialogue: 0,00:06:16.15,00:06:19.65,Top,,0000,0000,0000,,But do you think they will still have\Nthe concert with all the goings-on ?
+Dialogue: 0,00:06:20.87,00:06:22.92,Top,,0000,0000,0000,,Hope springs eternal.
+Dialogue: 0,00:06:21.45,00:06:22.85,Bot,,0000,0000,0000,,L'espoir fait vivre.
+Dialogue: 0,00:06:29.85,00:06:31.45,Bot,,0000,0000,0000,,J'y pensais depuis des mois.
+Dialogue: 0,00:06:30.95,00:06:33.55,Top,,0000,0000,0000,,I've been thinking about it for months.
+Dialogue: 0,00:06:33.45,00:06:35.75,Bot,,0000,0000,0000,,Depuis qu'on s'est embrassé à la Noël.
+Dialogue: 0,00:06:34.80,00:06:37.10,Top,,0000,0000,0000,,Since we kissed at Christmas.
+Dialogue: 0,00:06:35.76,00:06:38.06,Bot,,0000,0000,0000,,On s'embrasse chaque année à Noël.
+Dialogue: 0,00:06:37.12,00:06:38.59,Top,,0000,0000,0000,,We kiss every Christmas.
+Dialogue: 0,00:06:38.06,00:06:40.26,Bot,,0000,0000,0000,,Oui. Mais cette fois,\NVotre mari n'était pas là.
+Dialogue: 0,00:06:38.61,00:06:40.81,Top,,0000,0000,0000,,Yes. But this time your husband wasn't there.
+Dialogue: 0,00:06:44.26,00:06:46.86,Bot,,0000,0000,0000,,Qu'est-ce qu'on va faire,\Nmaintenant, M. Schwartz?
+Dialogue: 0,00:06:45.40,00:06:48.00,Top,,0000,0000,0000,,What are we going to do now, Monsieur Schwartz ?
+Dialogue: 0,00:06:49.86,00:06:51.96,Bot,,0000,0000,0000,,On va se tutoyer pour commencer.
+Dialogue: 0,00:06:51.01,00:06:53.11,Top,,0000,0000,0000,,We can be less formal for a start.
+Dialogue: 0,00:06:53.96,00:06:55.46,Bot,,0000,0000,0000,,Non. Ca me ferait trop bizarre.
+Dialogue: 0,00:06:54.22,00:06:55.72,Top,,0000,0000,0000,,No. That would be too strange for me.
+Dialogue: 0,00:06:55.46,00:06:58.26,Bot,,0000,0000,0000,,Mon Dieu!
+Dialogue: 0,00:06:56.46,00:06:59.26,Top,,0000,0000,0000,,My God !
+Dialogue: 0,00:07:06.26,00:07:08.96,Bot,,0000,0000,0000,,M. Schwartz, on est\Nfou d'avoir fait ça.
+Dialogue: 0,00:07:07.39,00:07:10.07,Top,,0000,0000,0000,,Monsieur Schwartz, we're crazy to do this.
+Dialogue: 0,00:07:29.96,00:07:30.76,Bot,,0000,0000,0000,,Non !
+Dialogue: 0,00:07:30.33,00:07:31.75,Top,,0000,0000,0000,,No !
+Dialogue: 0,00:07:38.76,00:07:41.06,Bot,,0000,0000,0000,,Il faut vraiment que j'y aille.
+Dialogue: 0,00:07:40.58,00:07:42.11,Top,,0000,0000,0000,,I've got to go.
+Dialogue: 0,00:07:43.06,00:07:46.16,Bot,,0000,0000,0000,,J'aimerais beaucoup qu'on se\Nrevoie. Vite. Il faut qu'on parle.
+Dialogue: 0,00:07:43.41,00:07:46.51,Top,,0000,0000,0000,,I want us to meet again. Soon. We need to talk.
+Dialogue: 0,00:07:48.17,00:07:50.07,Bot,,0000,0000,0000,,Demain, vers onze heures, ça vous irait ?
+Dialogue: 0,00:07:49.15,00:07:51.05,Top,,0000,0000,0000,,Tomorrow about 11 am, is that OK with you ?
+Dialogue: 0,00:07:52.07,00:07:53.97,Bot,,0000,0000,0000,,Je serai aux champs.
+Dialogue: 0,00:07:53.77,00:07:55.67,Top,,0000,0000,0000,,I'll be in the fields.
+Dialogue: 0,00:07:54.97,00:07:56.47,Bot,,0000,0000,0000,,Et mes poulets ?
+Dialogue: 0,00:07:56.18,00:07:57.78,Top,,0000,0000,0000,,And my chickens ?
+Dialogue: 0,00:07:56.47,00:07:58.77,Bot,,0000,0000,0000,,Vous ne m'avez pas donné mes poulets !
+Dialogue: 0,00:07:57.98,00:07:59.64,Top,,0000,0000,0000,,You haven't given me my chickens !
+Dialogue: 0,00:07:59.94,00:08:01.54,Top,,0000,0000,0000,,Right, Because I don't have any.
+Dialogue: 0,00:08:00.27,00:08:01.87,Bot,,0000,0000,0000,,Ben, c'est que je n'en ai pas.
+Dialogue: 0,00:08:01.87,00:08:06.07,Bot,,0000,0000,0000,,Il doit me rester quelques coqs et 2-3 vieilles\Npoules pondeuses, mais rien à mettre dans l'assiette.
+Dialogue: 0,00:08:02.27,00:08:07.47,Top,,0000,0000,0000,,I've only a few cocks and two old laying hens,\Nbut nothing fit for a plate.
+Dialogue: 0,00:08:25.07,00:08:28.07,Bot,,0000,0000,0000,,On pourrait s'arrêter là.\NQu'est-ce que vous en pensez ? Oui.
+Dialogue: 0,00:08:26.79,00:08:29.79,Top,,0000,0000,0000,,We can stop there. What do you think ? Yes ?
+Dialogue: 0,00:08:29.07,00:08:32.37,Bot,,0000,0000,0000,,On pose le casse-croûte et après on\Ncommence l'herbier sous les arbres.
+Dialogue: 0,00:08:29.82,00:08:32.85,Top,,0000,0000,0000,,We can get the snacks ready\Nand afterwards start the picnic under the trees.
+Dialogue: 0,00:08:33.37,00:08:34.87,Bot,,0000,0000,0000,,Les enfants !
+Dialogue: 0,00:08:34.07,00:08:36.09,Top,,0000,0000,0000,,Children !
+Dialogue: 0,00:08:36.87,00:08:38.97,Bot,,0000,0000,0000,,Les cheftaines, vous mettez les nappes.
+Dialogue: 0,00:08:37.15,00:08:39.25,Top,,0000,0000,0000,,Leaders, set the table.
+Dialogue: 0,00:08:38.98,00:08:40.38,Bot,,0000,0000,0000,,Et les autres, vous êtes sages.
+Dialogue: 0,00:08:39.54,00:08:41.08,Top,,0000,0000,0000,,And you others be careful.
+Dialogue: 0,00:08:41.15,00:08:44.72,Top,,0000,0000,0000,,Put your things down carefully.\NEspecially the gas masks.
+Dialogue: 0,00:08:41.38,00:08:44.58,Bot,,0000,0000,0000,,Vous posez vos affaires avec\Nsoin. Notamment les masques à gaz.
+Dialogue: 0,00:08:47.08,00:08:50.98,Top,,0000,0000,0000,,... and there's even alcohol in it...\NI don't believe you !
+Dialogue: 0,00:08:47.58,00:08:51.48,Bot,,0000,0000,0000,,... Et même qu'il y a de l'alcool dedans. Je ne te crois pas.
+Dialogue: 0,00:08:51.05,00:08:52.47,Top,,0000,0000,0000,,Why not ?
+Dialogue: 0,00:08:51.48,00:08:52.98,Bot,,0000,0000,0000,,Puisque je te le dis !
+Dialogue: 0,00:08:52.62,00:08:54.12,Top,,0000,0000,0000,,Because I say so !
+Dialogue: 0,00:08:54.98,00:08:56.48,Bot,,0000,0000,0000,,Les garçons, vous vous calmez.
+Dialogue: 0,00:08:55.18,00:08:56.93,Top,,0000,0000,0000,,Boys, calm down.
+Dialogue: 0,00:08:56.48,00:08:57.78,Bot,,0000,0000,0000,,Arrêtez de faire les pitres.
+Dialogue: 0,00:08:57.18,00:08:58.83,Top,,0000,0000,0000,,Stop clowning around.
+Dialogue: 0,00:08:59.58,00:09:01.98,Bot,,0000,0000,0000,,Regardez là-bas ! Il y a un canon.
+Dialogue: 0,00:08:59.98,00:09:02.38,Top,,0000,0000,0000,,Look down there. There's a gun.
+Dialogue: 0,00:09:03.98,00:09:08.58,Bot,,0000,0000,0000,,Les garçons, écartez-vous. Vous n'êtes pas bien !\NC'est dangereux. Ca peut exploser.
+Dialogue: 0,00:09:04.68,00:09:08.69,Top,,0000,0000,0000,,Boys, get away ! It's not safe.\NIt could explode.
+Dialogue: 0,00:09:09.58,00:09:10.18,Bot,,0000,0000,0000,,Allez. File !
+Dialogue: 0,00:09:09.75,00:09:11.12,Top,,0000,0000,0000,,Let's go ! In file.
+Dialogue: 0,00:09:10.68,00:09:12.68,Bot,,0000,0000,0000,,On pourrait peut-être\Naller ailleurs, non ?
+Dialogue: 0,00:09:11.83,00:09:13.83,Top,,0000,0000,0000,,We could go somewhere else. Right ?
+Dialogue: 0,00:09:12.68,00:09:14.58,Bot,,0000,0000,0000,,On va plus loin ?
+Dialogue: 0,00:09:13.92,00:09:15.82,Top,,0000,0000,0000,,Should we go farther away ?
+Dialogue: 0,00:09:18.58,00:09:21.88,Bot,,0000,0000,0000,,Non, on risque rien.\NIl n'y a pas de culasse.
+Dialogue: 0,00:09:19.64,00:09:22.37,Top,,0000,0000,0000,,No, we'll stay here. It may be a booby-trap.
+Dialogue: 0,00:09:22.88,00:09:24.98,Bot,,0000,0000,0000,,C'est du matériel\Nabandonné par les nôtres.
+Dialogue: 0,00:09:23.30,00:09:25.40,Top,,0000,0000,0000,,Our people have abandoned this stuff.
+Dialogue: 0,00:09:29.64,00:09:36.91,Top,,0000,0000,0000,,The Master says the Army left it.\NWhat's a booby-trap ?\NA booby-trap ! That would be a dirty trick.
+Dialogue: 0,00:09:32.98,00:09:36.08,Bot,,0000,0000,0000,,C'est quoi, une culasse ? Une\Nculasse, ça doit être un truc sale.
+Dialogue: 0,00:09:40.91,00:09:43.61,Top,,0000,0000,0000,,... help your friends.....you, serve the croissants ?
+Dialogue: 0,00:09:46.08,00:09:50.78,Bot,,0000,0000,0000,,... tu sers les copains...\NQui voulait un couteau ?
+Dialogue: 0,00:10:02.79,00:10:04.49,Bot,,0000,0000,0000,,Mais ça ne risque rien.
+Dialogue: 0,00:10:03.49,00:10:05.19,Top,,0000,0000,0000,,There's no risk.
+Dialogue: 0,00:10:13.49,00:10:15.49,Bot,,0000,0000,0000,,Bon. Les enfants...
+Dialogue: 0,00:10:14.00,00:10:16.19,Top,,0000,0000,0000,,Children... !  Children !
+Dialogue: 0,00:10:17.07,00:10:20.12,Top,,0000,0000,0000,,Stop now. Stop. War isn't a game, come and eat.
+Dialogue: 0,00:10:17.49,00:10:20.19,Bot,,0000,0000,0000,,Arrêtez maintenant. Arrêtez, la guerre\Nce n'est pas un jeu. Venez manger.
+Dialogue: 0,00:10:21.19,00:10:23.19,Bot,,0000,0000,0000,,Attention. Regardez. Un avion.
+Dialogue: 0,00:10:21.74,00:10:24.00,Top,,0000,0000,0000,,Listen !\NLook, an aircraft !
+Dialogue: 0,00:10:35.88,00:10:37.64,Top,,0000,0000,0000,,Boys. Stop. It's one of ours.
+Dialogue: 0,00:10:36.19,00:10:37.39,Bot,,0000,0000,0000,,Les garçons, arrêtez,\Nc'est un des nôtres.
+Dialogue: 0,00:10:39.39,00:10:40.69,Bot,,0000,0000,0000,,Déjà qu'on n'en a pas beaucoup...
+Dialogue: 0,00:10:39.44,00:10:41.29,Top,,0000,0000,0000,,He won't see much of us.
+Dialogue: 0,00:11:04.69,00:11:06.29,Bot,,0000,0000,0000,,Bonjour Michel.
+Dialogue: 0,00:11:06.02,00:11:07.92,Top,,0000,0000,0000,,Hello Michel.
+Dialogue: 0,00:11:14.79,00:11:16.29,Bot,,0000,0000,0000,,Bonjour Inès. Bonjour M. Schwartz.
+Dialogue: 0,00:11:14.86,00:11:17.05,Top,,0000,0000,0000,,Hello Inès.\NHello Monsieur Schwartz.
+Dialogue: 0,00:11:17.29,00:11:18.69,Bot,,0000,0000,0000,,Tenez, j'ai quelque chose pour vous.
+Dialogue: 0,00:11:17.40,00:11:18.98,Top,,0000,0000,0000,,Here, I've something for you.
+Dialogue: 0,00:11:18.69,00:11:19.69,Bot,,0000,0000,0000,,Des bonnes nouvelles?
+Dialogue: 0,00:11:19.09,00:11:20.57,Top,,0000,0000,0000,,Good news ?
+Dialogue: 0,00:11:21.70,00:11:22.90,Bot,,0000,0000,0000,,Bonjour Marcel.
+Dialogue: 0,00:11:22.57,00:11:23.77,Top,,0000,0000,0000,,Hello Marcel.
+Dialogue: 0,00:11:22.90,00:11:24.30,Bot,,0000,0000,0000,,Bonjour, M. Schwartz.
+Dialogue: 0,00:11:23.84,00:11:25.24,Top,,0000,0000,0000,,Hello, Monsieur Schwartz.
+Dialogue: 0,00:11:30.30,00:11:31.80,Bot,,0000,0000,0000,,Alors on ne passe pas juillet.
+Dialogue: 0,00:11:30.77,00:11:32.53,Top,,0000,0000,0000,,So we're not going in July.
+Dialogue: 0,00:11:32.80,00:11:36.00,Bot,,0000,0000,0000,,Même en escomptant la traite des\NSuisses je suis à moins douze mille.
+Dialogue: 0,00:11:34.33,00:11:37.53,Top,,0000,0000,0000,,Even counting the Swiss traffic\NI'm short at least 12 thousand.
+Dialogue: 0,00:11:40.00,00:11:42.50,Bot,,0000,0000,0000,,Il va falloir fermer, au\Nmoins pour un mois ou deux.
+Dialogue: 0,00:11:41.41,00:11:43.68,Top,,0000,0000,0000,,We'll have to close for at least a month or two.
+Dialogue: 0,00:11:43.00,00:11:45.10,Bot,,0000,0000,0000,,Et si on transportait\Nnous-mêmes les chargements?
+Dialogue: 0,00:11:43.70,00:11:45.80,Top,,0000,0000,0000,,What if we carried the loads ourselves ?
+Dialogue: 0,00:11:45.10,00:11:47.00,Bot,,0000,0000,0000,,sans passer par les transports Chauveau.
+Dialogue: 0,00:11:46.02,00:11:47.59,Top,,0000,0000,0000,,By-passing Chovot transport.
+Dialogue: 0,00:11:47.62,00:11:50.47,Top,,0000,0000,0000,,No. What we save on commissions, we'd lose on petrol.
+Dialogue: 0,00:11:48.00,00:11:50.10,Bot,,0000,0000,0000,,On gagne en sous-traitance\Nce qu'on perd en essence.
+Dialogue: 0,00:11:50.10,00:11:55.10,Bot,,0000,0000,0000,,Non. C'est foutu. A moins que vos Espagnols acceptent\Nd'étendre la journée sans augmentation de salaire.
+Dialogue: 0,00:11:52.12,00:11:56.27,Top,,0000,0000,0000,,No. It's screwed. Unless your Spaniards\Naccept a longer day's work without increase in pay.
+Dialogue: 0,00:11:55.10,00:11:57.80,Bot,,0000,0000,0000,,Attendez. C'est pas des\Nesclaves, quand même.
+Dialogue: 0,00:11:56.53,00:11:59.23,Top,,0000,0000,0000,,Listen. They're not slaves.
+Dialogue: 0,00:12:01.81,00:12:06.61,Bot,,0000,0000,0000,,Vous croyez que ça m'amuse ? Il y a forcément une autre\Nsolution sans devoir passer un tour de vis de plus.
+Dialogue: 0,00:12:03.18,00:12:07.31,Top,,0000,0000,0000,,You think I find it funny ?\NThere's bound to be another solution\Nwithout turning the screws on them.
+Dialogue: 0,00:12:06.61,00:12:08.51,Bot,,0000,0000,0000,,Ben, je ne la vois pas, la solution.
+Dialogue: 0,00:12:07.31,00:12:09.21,Top,,0000,0000,0000,,Well, I don't see a solution.
+Dialogue: 0,00:12:08.51,00:12:10.21,Bot,,0000,0000,0000,,Je retourne tout depuis trois\Njours, je ne la vois pas.
+Dialogue: 0,00:12:09.21,00:12:10.91,Top,,0000,0000,0000,,I've turned it all over three days and I don't see one.
+Dialogue: 0,00:12:11.61,00:12:14.61,Bot,,0000,0000,0000,,Dites. Vous ne sauriez pas où je\Npourrais trouver trois poulets ?
+Dialogue: 0,00:12:12.66,00:12:15.31,Top,,0000,0000,0000,,Hey. You don't know where I can find three chickens ?
+Dialogue: 0,00:12:14.61,00:12:16.81,Bot,,0000,0000,0000,,Ben à la boucherie !
+Dialogue: 0,00:12:16.41,00:12:17.80,Top,,0000,0000,0000,,At the butchers !
+Dialogue: 0,00:12:17.81,00:12:20.41,Bot,,0000,0000,0000,,Evidemment. M. Schwartz, c'est la police.
+Dialogue: 0,00:12:17.83,00:12:19.09,Top,,0000,0000,0000,,Obviously.
+Dialogue: 0,00:12:19.12,00:12:20.79,Top,,0000,0000,0000,,Monsieur Schwartz it's the Police !
+Dialogue: 0,00:12:25.98,00:12:27.43,Top,,0000,0000,0000,,Monsieur Schwartz !
+Dialogue: 0,00:12:26.41,00:12:27.31,Bot,,0000,0000,0000,,M. Schwartz !
+Dialogue: 0,00:12:27.31,00:12:28.61,Bot,,0000,0000,0000,,M. le commissaire ?
+Dialogue: 0,00:12:28.14,00:12:29.44,Top,,0000,0000,0000,,Monsieur le Commissaire ?
+Dialogue: 0,00:12:28.61,00:12:30.71,Bot,,0000,0000,0000,,Je ne m'attendais pas à votre visite.
+Dialogue: 0,00:12:29.92,00:12:31.57,Top,,0000,0000,0000,,I wasn't expecting a visit from you.
+Dialogue: 0,00:12:30.71,00:12:35.21,Bot,,0000,0000,0000,,Je suis désolé de vous déranger, mais... Mon collègue,\NJean Marchetti, des renseignements de Dijon.
+Dialogue: 0,00:12:31.60,00:12:36.10,Top,,0000,0000,0000,,Sorry to disturb you. Here's my colleague\NJean Marchetti, of the Dijon Bureau.
+Dialogue: 0,00:12:35.22,00:12:37.82,Bot,,0000,0000,0000,,Marcel Larcher, mon chef d'équipe.\NQu'est-ce qu'on peut faire pour vous ?
+Dialogue: 0,00:12:36.15,00:12:38.52,Top,,0000,0000,0000,,Marcel Larcher, my foreman. What can we do for you ?
+Dialogue: 0,00:12:37.82,00:12:41.32,Bot,,0000,0000,0000,,Nous enquêtons sur une section communiste\Nqui s'est reconstituée sur la région.
+Dialogue: 0,00:12:38.52,00:12:42.02,Top,,0000,0000,0000,,We're investigating a Communist cell\Nwhich has formed in this area.
+Dialogue: 0,00:12:42.32,00:12:44.62,Bot,,0000,0000,0000,,Et vous n'avez rien de\Nmieux à faire en ce moment ?
+Dialogue: 0,00:12:43.45,00:12:45.32,Top,,0000,0000,0000,,You've nothing better to do right now ?
+Dialogue: 0,00:12:44.62,00:12:47.92,Bot,,0000,0000,0000,,A savoir ? Ben je ne sais pas, moi.\NChercher plutôt des Boches que des Français.
+Dialogue: 0,00:12:45.54,00:12:49.19,Top,,0000,0000,0000,,Who knows ?\NSure I don't...perhaps hunt Boches rather than Frenchmen.
+Dialogue: 0,00:12:48.92,00:12:52.22,Bot,,0000,0000,0000,,Nous, ce qu'on veut c'est simplement\Nretrouver les types qui distribuent ça.
+Dialogue: 0,00:12:49.90,00:12:53.20,Top,,0000,0000,0000,,We simply want to find the guys\Nwho distribute this stuff.
+Dialogue: 0,00:12:55.22,00:12:57.02,Bot,,0000,0000,0000,,Des communistes.
+Dialogue: 0,00:12:55.77,00:12:57.57,Top,,0000,0000,0000,,Communists.
+Dialogue: 0,00:12:59.02,00:13:01.32,Bot,,0000,0000,0000,,Vous savez qu'ils m'ont assez\Nfoutu dans la merde en 36...
+Dialogue: 0,00:13:00.27,00:13:02.50,Top,,0000,0000,0000,,You know they screwed me back in 1936...
+Dialogue: 0,00:13:01.32,00:13:03.92,Bot,,0000,0000,0000,,...je peux vous assurer qu'il\Nn'y en a plus dans l'entreprise.
+Dialogue: 0,00:13:02.76,00:13:04.76,Top,,0000,0000,0000,,I can assure you they're no longer in the company.
+Dialogue: 0,00:13:04.92,00:13:07.62,Bot,,0000,0000,0000,,Voici un de vos tarifs. Vous\Nles imprimez ici, je suppose ?
+Dialogue: 0,00:13:05.33,00:13:08.03,Top,,0000,0000,0000,,Here is one of your price lists.\NYou print them here I suppose.
+Dialogue: 0,00:13:07.62,00:13:12.22,Bot,,0000,0000,0000,,Eh bien si l'on compare avec le tract on peut\Ns'apercevoir qu'ils ont été frappés sur la même machine.
+Dialogue: 0,00:13:09.49,00:13:13.32,Top,,0000,0000,0000,,And if you compare it with this leaflet you'll\Nsee they were printed on the same machine.
+Dialogue: 0,00:13:13.23,00:13:15.83,Bot,,0000,0000,0000,,Avec un défaut d'encrage là et...là.
+Dialogue: 0,00:13:14.12,00:13:16.72,Top,,0000,0000,0000,,With ink missing, there.....and there.
+Dialogue: 0,00:13:19.83,00:13:23.93,Bot,,0000,0000,0000,,Vous avez donc ici une cellule assez\Norganisée pour imprimer et diffuser des tracts.
+Dialogue: 0,00:13:21.10,00:13:23.98,Top,,0000,0000,0000,,So you've a cell here,\Nprinting and distributing leaflets.
+Dialogue: 0,00:13:23.93,00:13:25.13,Bot,,0000,0000,0000,,C'est grave.
+Dialogue: 0,00:13:25.18,00:13:26.76,Top,,0000,0000,0000,,This is serious.
+Dialogue: 0,00:13:26.13,00:13:28.73,Bot,,0000,0000,0000,,Enfin, c'est impossible,\Nje connais mes gars.
+Dialogue: 0,00:13:27.68,00:13:29.43,Top,,0000,0000,0000,,It's impossible. I know my boys.
+Dialogue: 0,00:13:28.73,00:13:30.83,Bot,,0000,0000,0000,,J'ai parlé à l'inspecteur\Nde vos Espagnols.
+Dialogue: 0,00:13:29.43,00:13:31.83,Top,,0000,0000,0000,,I've spoken to the Inspecteur about your Spaniards.
+Dialogue: 0,00:13:30.83,00:13:33.53,Bot,,0000,0000,0000,,Eux, effectivement,\Nje les connais moins.
+Dialogue: 0,00:13:32.20,00:13:34.27,Top,,0000,0000,0000,,Them ! Indeed, I know them less well.
+Dialogue: 0,00:13:33.53,00:13:36.23,Bot,,0000,0000,0000,,Oui. Ce sont des réfugiés\Nrépublicains, je suppose ?
+Dialogue: 0,00:13:35.08,00:13:37.78,Top,,0000,0000,0000,,Yes. They're Republican refugees I suppose ?
+Dialogue: 0,00:13:43.23,00:13:44.63,Bot,,0000,0000,0000,,Dr Larcher?
+Dialogue: 0,00:13:44.54,00:13:46.27,Top,,0000,0000,0000,,Docteur Larcher ?
+Dialogue: 0,00:13:45.63,00:13:47.13,Bot,,0000,0000,0000,,Je ne savais pas que vous étiez là.
+Dialogue: 0,00:13:46.33,00:13:47.83,Top,,0000,0000,0000,,Why did you come ?
+Dialogue: 0,00:13:47.13,00:13:49.43,Bot,,0000,0000,0000,,Vous ne savez pas qu'une\Nde vos ouvrières accouche ?
+Dialogue: 0,00:13:47.83,00:13:50.13,Top,,0000,0000,0000,,You didn't know one of your\Nworkers is giving birth ?
+Dialogue: 0,00:13:49.44,00:13:50.84,Bot,,0000,0000,0000,,Si, si, bien sûr.
+Dialogue: 0,00:13:50.14,00:13:51.54,Top,,0000,0000,0000,,Yes, Of course.
+Dialogue: 0,00:13:50.84,00:13:51.94,Bot,,0000,0000,0000,,Et alors ? Ca se passe bien ?
+Dialogue: 0,00:13:51.54,00:13:52.64,Top,,0000,0000,0000,,So. Is it going well ?
+Dialogue: 0,00:13:51.94,00:13:53.94,Bot,,0000,0000,0000,,Ca se passerait bien si\Nelle arrivait à pousser.
+Dialogue: 0,00:13:52.64,00:13:54.84,Top,,0000,0000,0000,,It would go well if she started to push.
+Dialogue: 0,00:13:54.94,00:13:56.84,Bot,,0000,0000,0000,,...la police. Ils veulent\Nfermer le baraquement.
+Dialogue: 0,00:13:55.03,00:13:57.37,Top,,0000,0000,0000,,The Police. They want to close the barracks.
+Dialogue: 0,00:13:56.84,00:13:59.94,Bot,,0000,0000,0000,,Allez. Ne vous inquiétez\Npas. Ce ne sera pas long.
+Dialogue: 0,00:13:57.85,00:13:59.94,Top,,0000,0000,0000,,Go on. Don't worry. It won't take long.
+Dialogue: 0,00:13:59.94,00:14:00.94,Bot,,0000,0000,0000,,Traduisez, s'il vous plait.
+Dialogue: 0,00:14:00.16,00:14:01.46,Top,,0000,0000,0000,,Translate please.
+Dialogue: 0,00:14:02.71,00:14:04.11,Top,,0000,0000,0000,,My friends.
+Dialogue: 0,00:14:02.94,00:14:04.34,Bot,,0000,0000,0000,,Amigos de la lucha.
+Dialogue: 0,00:14:09.34,00:14:12.14,Bot,,0000,0000,0000,,(une conversation en espagnol) Poussez.
+Dialogue: 0,00:14:11.80,00:14:14.60,Top,,0000,0000,0000,,Push.
+Dialogue: 0,00:14:14.14,00:14:15.34,Bot,,0000,0000,0000,,Bonjour, Docteur.
+Dialogue: 0,00:14:14.65,00:14:15.85,Top,,0000,0000,0000,,Good day Docteur.
+Dialogue: 0,00:14:17.34,00:14:18.54,Bot,,0000,0000,0000,,Poussez. Là ça se passe bien.
+Dialogue: 0,00:14:17.88,00:14:19.08,Top,,0000,0000,0000,,Push. It's going well.
+Dialogue: 0,00:14:18.55,00:14:20.55,Bot,,0000,0000,0000,,Ca pourrait aller mieux.
+Dialogue: 0,00:14:19.25,00:14:21.25,Top,,0000,0000,0000,,It could go better.
+Dialogue: 0,00:14:20.55,00:14:22.55,Bot,,0000,0000,0000,,Debout, s'il vous plait.
+Dialogue: 0,00:14:21.25,00:14:23.25,Top,,0000,0000,0000,,Stand up please.
+Dialogue: 0,00:14:23.55,00:14:25.75,Bot,,0000,0000,0000,,Vous savez que les Allemands\Nont percé à Besançon ?
+Dialogue: 0,00:14:24.53,00:14:26.18,Top,,0000,0000,0000,,You know the Germans reached Besançon ?
+Dialogue: 0,00:14:26.38,00:14:28.98,Top,,0000,0000,0000,,The Sous-Préfet told me we're\Npreparing a massive counter attack.
+Dialogue: 0,00:14:26.75,00:14:28.75,Bot,,0000,0000,0000,,Le sous-préfet m'a dit qu'on\Npréparait une contre-attaque massive.
+Dialogue: 0,00:14:28.75,00:14:31.45,Bot,,0000,0000,0000,,Allez, madame, il faut\Nqu'on le sorte ce bébé.
+Dialogue: 0,00:14:30.14,00:14:32.48,Top,,0000,0000,0000,,Let's go Madame. We need to get the baby out.
+Dialogue: 0,00:14:31.45,00:14:34.35,Bot,,0000,0000,0000,,Où il est, le type qui traduit ? Ignacio ?
+Dialogue: 0,00:14:32.79,00:14:35.05,Top,,0000,0000,0000,,Where's the interpreter, Ignacio ?
+Dialogue: 0,00:14:38.35,00:14:40.15,Bot,,0000,0000,0000,,C'est pas un drapeau, ça ?
+Dialogue: 0,00:14:38.88,00:14:40.68,Top,,0000,0000,0000,,That's not a flag, is it ?
+Dialogue: 0,00:14:57.15,00:14:58.75,Bot,,0000,0000,0000,,Ce sont des communistes.
+Dialogue: 0,00:14:58.08,00:14:59.91,Top,,0000,0000,0000,,They're Communists.
+Dialogue: 0,00:15:01.75,00:15:03.65,Bot,,0000,0000,0000,,C'est en espagnol.
+Dialogue: 0,00:15:02.98,00:15:04.88,Top,,0000,0000,0000,,It's in Spanish.
+Dialogue: 0,00:15:05.65,00:15:07.95,Bot,,0000,0000,0000,,Mais ce sont des vieux trucs ça.
+Dialogue: 0,00:15:06.84,00:15:11.14,Top,,0000,0000,0000,,These are old things, January 39, March 39...
+Dialogue: 0,00:15:09.96,00:15:12.36,Bot,,0000,0000,0000,,Janvier 39, mars 39... Une machine à imprimer !
+Dialogue: 0,00:15:11.66,00:15:13.27,Top,,0000,0000,0000,,The printing machine !
+Dialogue: 0,00:15:12.36,00:15:13.16,Bot,,0000,0000,0000,,Ils sont où ?
+Dialogue: 0,00:15:13.40,00:15:14.83,Top,,0000,0000,0000,,Where's the stuff ?
+Dialogue: 0,00:15:16.16,00:15:18.86,Bot,,0000,0000,0000,,Les flics sont là, ils savent\Nqu'on imprime ici. Merde !
+Dialogue: 0,00:15:16.86,00:15:19.56,Top,,0000,0000,0000,,The cops are here and know that we print it here.\NShit !
+Dialogue: 0,00:15:20.86,00:15:22.26,Bot,,0000,0000,0000,,Passe-moi les stencils.
+Dialogue: 0,00:15:21.43,00:15:23.57,Top,,0000,0000,0000,,Pass me the stencils.
+Dialogue: 0,00:15:22.26,00:15:24.96,Bot,,0000,0000,0000,,Ils ne vont pas mettre\Nlongtemps à débouler.
+Dialogue: 0,00:15:24.17,00:15:26.27,Top,,0000,0000,0000,,They won't take long to tumble to it.
+Dialogue: 0,00:15:26.96,00:15:28.66,Bot,,0000,0000,0000,,Qu'est-ce qu'il y a d'autre ?
+Dialogue: 0,00:15:28.29,00:15:30.21,Top,,0000,0000,0000,,What else is there ?
+Dialogue: 0,00:15:30.66,00:15:32.36,Bot,,0000,0000,0000,,Il y a les cahiers du bolchévisme.
+Dialogue: 0,00:15:30.96,00:15:32.91,Top,,0000,0000,0000,,There's the Bolshevism books.
+Dialogue: 0,00:15:42.36,00:15:44.66,Bot,,0000,0000,0000,,Il y a des brochures de Polizei, aussi.
+Dialogue: 0,00:15:43.66,00:15:45.96,Top,,0000,0000,0000,,The Politburo pamphlets too.
+Dialogue: 0,00:15:50.66,00:15:52.96,Bot,,0000,0000,0000,,Qu'est-ce qu'on fait ?\NOn se fait la malle ?
+Dialogue: 0,00:15:52.09,00:15:54.02,Top,,0000,0000,0000,,What do we do ? Do we pack the trunk ?
+Dialogue: 0,00:15:52.96,00:15:55.26,Bot,,0000,0000,0000,,Avec les schleus, je\Nne vois pas où j'irais.
+Dialogue: 0,00:15:54.05,00:15:56.35,Top,,0000,0000,0000,,With the Teutons around, I don't see where I'll go.
+Dialogue: 0,00:15:55.27,00:15:58.77,Bot,,0000,0000,0000,,Dépêche-toi.... Doucement.
+Dialogue: 0,00:15:58.74,00:16:00.24,Top,,0000,0000,0000,,Hurry up....go quietly.
+Dialogue: 0,00:16:15.77,00:16:17.67,Bot,,0000,0000,0000,,Encore lui.
+Dialogue: 0,00:16:16.47,00:16:18.60,Top,,0000,0000,0000,,Him again.
+Dialogue: 0,00:16:20.12,00:16:22.78,Top,,0000,0000,0000,,Hey, don't you want us\Nto go with the others?
+Dialogue: 0,00:16:23.42,00:16:26.55,Top,,0000,0000,0000,,If we get demerit points for start\Nof school, my mother will kill me.
+Dialogue: 0,00:16:27.88,00:16:30.78,Top,,0000,0000,0000,,Don't do it. The Master's very busy already.
+Dialogue: 0,00:16:28.67,00:16:30.57,Bot,,0000,0000,0000,,T'en fais pas. Le maître\Nest déjà très occupé.
+Dialogue: 0,00:16:37.57,00:16:39.57,Bot,,0000,0000,0000,,Qu'est-ce qu'il cherche ?
+Dialogue: 0,00:16:38.62,00:16:40.62,Top,,0000,0000,0000,,What's he looking for ?
+Dialogue: 0,00:16:43.78,00:16:45.15,Top,,0000,0000,0000,,Shit.
+Dialogue: 0,00:16:45.57,00:16:48.57,Bot,,0000,0000,0000,,Mais merde ! C'est des Boches !\NIls vont nous tirer dessus !
+Dialogue: 0,00:16:47.32,00:16:49.49,Top,,0000,0000,0000,, It's a Boche ! They're going to shoot us !
+Dialogue: 0,00:17:21.92,00:17:23.97,Top,,0000,0000,0000,,Are you OK, children ?
+Dialogue: 0,00:17:23.57,00:17:24.97,Bot,,0000,0000,0000,,Ca va bien, les enfants ?
+Dialogue: 0,00:17:25.97,00:17:27.47,Bot,,0000,0000,0000,,Ne bougez pas.
+Dialogue: 0,00:17:26.83,00:17:28.17,Top,,0000,0000,0000,,Don't move.
+Dialogue: 0,00:17:27.47,00:17:29.17,Bot,,0000,0000,0000,,Bruno ?
+Dialogue: 0,00:17:28.58,00:17:30.28,Top,,0000,0000,0000,,Bruno ?
+Dialogue: 0,00:17:30.17,00:17:31.87,Bot,,0000,0000,0000,,Ne bougez pas, les enfants.
+Dialogue: 0,00:17:31.13,00:17:32.83,Top,,0000,0000,0000,,Don't move, children.
+Dialogue: 0,00:17:32.85,00:17:33.95,Top,,0000,0000,0000,,Bruno ?
+Dialogue: 0,00:17:32.87,00:17:33.97,Bot,,0000,0000,0000,,Bruno ?
+Dialogue: 0,00:17:35.98,00:17:37.38,Bot,,0000,0000,0000,,Bruno ! Oui ?
+Dialogue: 0,00:17:36.23,00:17:38.46,Top,,0000,0000,0000,,Bruno !\NYes ?
+Dialogue: 0,00:17:41.76,00:17:44.62,Top,,0000,0000,0000,,Marceau, You're bleeding darling.
+Dialogue: 0,00:17:42.38,00:17:43.78,Bot,,0000,0000,0000,,Marceau, tu saignes, mon chéri.
+Dialogue: 0,00:17:45.48,00:17:46.48,Bot,,0000,0000,0000,,J'ai mal !
+Dialogue: 0,00:17:46.20,00:17:47.65,Top,,0000,0000,0000,,I'm hurt !
+Dialogue: 0,00:17:47.48,00:17:48.98,Bot,,0000,0000,0000,,Ne t'inquiète pas, je vais te soigner.
+Dialogue: 0,00:17:48.01,00:17:49.86,Top,,0000,0000,0000,,Don't worry, I'll take care of you.
+Dialogue: 0,00:17:49.98,00:17:51.78,Bot,,0000,0000,0000,,Bruno ?
+Dialogue: 0,00:17:51.07,00:17:52.87,Top,,0000,0000,0000,,Is he dead ?
+Dialogue: 0,00:17:57.04,00:18:01.84,Top,,0000,0000,0000,,Bruno .... Bruno.... Bruno. ?\NWhat happened ?
+Dialogue: 0,00:17:58.98,00:18:01.78,Bot,,0000,0000,0000,,Bruno... Bruno... Bruno ?\NQu'est-ce qui se passe ?
+Dialogue: 0,00:18:03.53,00:18:04.53,Top,,0000,0000,0000,,Michaël.
+Dialogue: 0,00:18:04.18,00:18:05.18,Bot,,0000,0000,0000,,Michael.
+Dialogue: 0,00:18:24.48,00:18:26.98,Bot,,0000,0000,0000,,Qu'est-ce qu'on fait, maîtresse?
+Dialogue: 0,00:18:26.22,00:18:27.24,Top,,0000,0000,0000,,What shall we do Mistress ?
+Dialogue: 0,00:18:27.28,00:18:28.29,Top,,0000,0000,0000,,Don't move.
+Dialogue: 0,00:18:27.98,00:18:28.98,Bot,,0000,0000,0000,,Ne bougez pas.
+Dialogue: 0,00:18:28.31,00:18:29.62,Top,,0000,0000,0000,,Don't move.
+Dialogue: 0,00:18:29.91,00:18:32.49,Top,,0000,0000,0000,,It's OK children. Don't move.
+Dialogue: 0,00:18:29.98,00:18:31.48,Bot,,0000,0000,0000,,Ca va aller, les enfants. Ne bougez pas.
+Dialogue: 0,00:18:33.48,00:18:35.08,Bot,,0000,0000,0000,,Reculez.
+Dialogue: 0,00:18:34.52,00:18:35.91,Top,,0000,0000,0000,,Get back.
+Dialogue: 0,00:18:35.08,00:18:36.68,Bot,,0000,0000,0000,,On va venir nous chercher.
+Dialogue: 0,00:18:35.94,00:18:37.74,Top,,0000,0000,0000,,They'll come and get us.
+Dialogue: 0,00:18:56.69,00:18:59.19,Bot,,0000,0000,0000,,Je suis sûr que Marcel\Na une explication.
+Dialogue: 0,00:18:57.98,00:18:59.98,Top,,0000,0000,0000,,I'm sure Marcel has an explanation.
+Dialogue: 0,00:18:59.69,00:19:01.79,Bot,,0000,0000,0000,,A part lui, qui a\Naccès à cette machine ?
+Dialogue: 0,00:19:00.60,00:19:02.37,Top,,0000,0000,0000,,Apart from him, who has access to this machine ?
+Dialogue: 0,00:19:01.79,00:19:03.99,Bot,,0000,0000,0000,,Je ne sais pas, Inès, ma\Nsecrétaire, un peu tout le monde.
+Dialogue: 0,00:19:02.40,00:19:04.60,Top,,0000,0000,0000,,I don't know, Inès, my secretary, just about everyone.
+Dialogue: 0,00:19:07.99,00:19:09.79,Bot,,0000,0000,0000,,C'est quoi ça ?
+Dialogue: 0,00:19:09.39,00:19:10.49,Top,,0000,0000,0000,,What was that ?
+Dialogue: 0,00:19:09.79,00:19:11.89,Bot,,0000,0000,0000,,Je ne sais pas. Ca\Nressemble à une explosion !
+Dialogue: 0,00:19:10.49,00:19:12.59,Top,,0000,0000,0000,,I don't know. It felt like an explosion !
+Dialogue: 0,00:19:16.89,00:19:18.69,Bot,,0000,0000,0000,,C'était quoi ?
+Dialogue: 0,00:19:17.74,00:19:19.30,Top,,0000,0000,0000,,What was it ?
+Dialogue: 0,00:19:18.69,00:19:20.59,Bot,,0000,0000,0000,,On dirait une explosion,\Nlà-haut sur la colline.
+Dialogue: 0,00:19:19.33,00:19:21.23,Top,,0000,0000,0000,,They said an explosion up on the hill.
+Dialogue: 0,00:19:22.59,00:19:24.39,Bot,,0000,0000,0000,,Les Allemands !
+Dialogue: 0,00:19:23.90,00:19:25.70,Top,,0000,0000,0000,,The Germans !
+Dialogue: 0,00:19:26.39,00:19:27.59,Bot,,0000,0000,0000,,Les Allemands !
+Dialogue: 0,00:19:26.63,00:19:28.28,Top,,0000,0000,0000,,The Germans !
+Dialogue: 0,00:19:30.48,00:19:32.38,Top,,0000,0000,0000,,I think I saw tanks.
+Dialogue: 0,00:19:30.59,00:19:32.49,Bot,,0000,0000,0000,,Je crois que j'ai vu des chars.
+Dialogue: 0,00:19:56.24,00:19:58.44,Top,,0000,0000,0000,,My God ! Quick, quick.
+Dialogue: 0,00:19:56.50,00:19:58.70,Bot,,0000,0000,0000,,Nom de Dieu ! Vite... vite, vite.
+Dialogue: 0,00:20:53.70,00:20:55.90,Bot,,0000,0000,0000,,Il faut rentrer chez nous.\NIl faut quitter Villeneuve.
+Dialogue: 0,00:20:54.92,00:20:57.12,Top,,0000,0000,0000,,You must go home, and then leave Villeneuve.
+Dialogue: 0,00:20:56.90,00:20:59.00,Bot,,0000,0000,0000,,Je ne peux pas, moi. Et\Nla femme avec le bébé.
+Dialogue: 0,00:20:57.44,00:20:59.54,Top,,0000,0000,0000,,I can't. There's the woman with the baby.
+Dialogue: 0,00:20:59.00,00:21:04.90,Bot,,0000,0000,0000,,Marcel, sois gentil. Tu passes à la maison. Tu dis à\NHortense de fermer les rideaux de fer et de m'attendre.
+Dialogue: 0,00:21:01.60,00:21:05.57,Top,,0000,0000,0000,,Marcel, would you oblige. Go to my house.\NTell Hortense to close the shutters and wait for me.
+Dialogue: 0,00:21:04.90,00:21:06.10,Bot,,0000,0000,0000,,Je ne suis pas à ta disposition !
+Dialogue: 0,00:21:05.60,00:21:06.80,Top,,0000,0000,0000,,I'm not at your disposal !
+Dialogue: 0,00:21:06.10,00:21:08.20,Bot,,0000,0000,0000,,Mais arrêtez, bon sang !\NVotre frère est bloqué ici.
+Dialogue: 0,00:21:06.80,00:21:08.90,Top,,0000,0000,0000,,Stop that, damnit. Your brother is stuck here.
+Dialogue: 0,00:21:08.20,00:21:09.90,Bot,,0000,0000,0000,,Alors, vos histoires...\NMoi aussi, j'ai une femme.
+Dialogue: 0,00:21:08.90,00:21:09.60,Top,,0000,0000,0000,,You and your dramas.
+Dialogue: 0,00:21:09.60,00:21:11.80,Top,,0000,0000,0000,,I've got a wife too... and she's sick.
+Dialogue: 0,00:21:09.90,00:21:11.10,Bot,,0000,0000,0000,,... et elle est malade.
+Dialogue: 0,00:21:11.10,00:21:12.90,Bot,,0000,0000,0000,,Et je dois aller chercher\Nmon gosse à l'école.
+Dialogue: 0,00:21:11.97,00:21:13.77,Top,,0000,0000,0000,,And I've to go find my kid at the school.
+Dialogue: 0,00:21:13.90,00:21:16.30,Bot,,0000,0000,0000,,Bon. Ne vous inquiétez\Npas. Je passerai, moi.
+Dialogue: 0,00:21:15.33,00:21:17.37,Top,,0000,0000,0000,,Good. Don't worry yourself. I'll go.
+Dialogue: 0,00:21:16.31,00:21:18.41,Bot,,0000,0000,0000,,Vous m'emmenez ?
+Dialogue: 0,00:21:18.04,00:21:19.11,Top,,0000,0000,0000,,Can you take me ?
+Dialogue: 0,00:21:18.41,00:21:22.51,Bot,,0000,0000,0000,,Les communistes, maintenant,\Non s'en fout. D'accord.
+Dialogue: 0,00:21:19.13,00:21:21.63,Top,,0000,0000,0000,,Who cares about the Communists now, OK ?
+Dialogue: 0,00:21:22.08,00:21:24.05,Top,,0000,0000,0000,,The tanks are going towards Villeneuve.\NThere'll be panic there.
+Dialogue: 0,00:21:22.51,00:21:23.41,Bot,,0000,0000,0000,,Les chars vont vers Villeneuve.\NCela va être la panique là-bas.
+Dialogue: 0,00:21:23.41,00:21:24.61,Bot,,0000,0000,0000,,Il faut y aller, fissa.
+Dialogue: 0,00:21:24.08,00:21:25.67,Top,,0000,0000,0000,,We need to go, quick.
+Dialogue: 0,00:21:25.91,00:21:28.23,Top,,0000,0000,0000,,Help me ! Help me !
+Dialogue: 0,00:21:26.61,00:21:27.91,Bot,,0000,0000,0000,,Ayúdame ! Ayúdame !
+Dialogue: 0,00:21:28.91,00:21:33.71,Bot,,0000,0000,0000,,Qu'est-ce que vous faites, madame ? Restez\Nallongée. Vous ne pouvez pas vous lever.
+Dialogue: 0,00:21:30.54,00:21:35.34,Top,,0000,0000,0000,,What are you doing Madame ? Lie down.\NYou can't get up.
+Dialogue: 0,00:21:35.68,00:21:37.18,Top,,0000,0000,0000,,Lie down, Madame.
+Dialogue: 0,00:21:35.71,00:21:37.21,Bot,,0000,0000,0000,,Restez allongée, madame.
+Dialogue: 0,00:21:46.21,00:21:48.71,Bot,,0000,0000,0000,,Appuyez ici. Fort. Fort !
+Dialogue: 0,00:21:46.91,00:21:49.41,Top,,0000,0000,0000,,Push here. Hard. Hard !
+Dialogue: 0,00:21:54.71,00:21:56.01,Bot,,0000,0000,0000,,Allez, madame.
+Dialogue: 0,00:21:55.41,00:21:56.71,Top,,0000,0000,0000,,Come on, Madame.
+Dialogue: 0,00:21:57.01,00:21:58.61,Bot,,0000,0000,0000,,Allez, poussez. Allez-y.
+Dialogue: 0,00:21:57.18,00:21:58.78,Top,,0000,0000,0000,,Push. Come on.
+Dialogue: 0,00:21:58.62,00:22:04.42,Bot,,0000,0000,0000,,C'est bien. Je le vois. Je vois sa tête.
+Dialogue: 0,00:21:59.35,00:22:05.15,Top,,0000,0000,0000,,It's good. I see it. I can see it's head.
+Dialogue: 0,00:22:05.38,00:22:08.30,Top,,0000,0000,0000,,Go on, push. It's coming. One more effort.
+Dialogue: 0,00:22:05.42,00:22:07.12,Bot,,0000,0000,0000,,Allez-y, poussez. Il\Narrive. Encore un effort.
+Dialogue: 0,00:22:11.12,00:22:12.92,Bot,,0000,0000,0000,,Et le voilà.
+Dialogue: 0,00:22:11.34,00:22:13.14,Top,,0000,0000,0000,,Ah, there it is.
+Dialogue: 0,00:22:18.92,00:22:20.52,Bot,,0000,0000,0000,,C'est un garçon, madame.
+Dialogue: 0,00:22:19.62,00:22:21.22,Top,,0000,0000,0000,,It's a boy, Madame.
+Dialogue: 0,00:22:21.52,00:22:22.52,Bot,,0000,0000,0000,,Un beau garçon.
+Dialogue: 0,00:22:21.82,00:22:23.72,Top,,0000,0000,0000,,A beautiful boy.
+Dialogue: 0,00:22:34.52,00:22:36.52,Bot,,0000,0000,0000,,Il est beau. Comment vous\Nallez l'appeler?
+Dialogue: 0,00:22:34.83,00:22:36.83,Top,,0000,0000,0000,,He's beautiful. What are you going to call him ?
+Dialogue: 0,00:22:36.52,00:22:37.72,Bot,,0000,0000,0000,,Te quiero mucho, te quiero !
+Dialogue: 0,00:22:37.22,00:22:38.76,Top,,0000,0000,0000,,"Te Quiero"  (I love you)
+Dialogue: 0,00:22:38.82,00:22:40.59,Top,,0000,0000,0000,,"Te Quiero" ? Right, "Te Quiero".
+Dialogue: 0,00:22:39.72,00:22:41.02,Bot,,0000,0000,0000,,Te Quiero ? Te Quiero, bon.
+Dialogue: 0,00:22:41.02,00:22:42.42,Bot,,0000,0000,0000,,C'est très beau, Te Quiero.
+Dialogue: 0,00:22:41.72,00:22:43.12,Top,,0000,0000,0000,,He's beautiful is "Te Quiero".
+Dialogue: 0,00:22:44.24,00:22:45.98,Top,,0000,0000,0000,,Bravo, Madame.
+Dialogue: 0,00:22:44.42,00:22:45.42,Bot,,0000,0000,0000,,Bravo, madame.
+Dialogue: 0,00:22:47.43,00:22:51.73,Bot,,0000,0000,0000,,Merde. Elle part. Elle fait une\Nhémorragie de la délivrance. Vite.
+Dialogue: 0,00:22:47.70,00:22:52.00,Top,,0000,0000,0000,,Shit ! She's going.\NShe's having an haemorrhage. Quick.
+Dialogue: 0,00:22:52.73,00:22:54.83,Bot,,0000,0000,0000,,Aidez-moi. Dans ma trousse, là.
+Dialogue: 0,00:22:52.78,00:22:54.88,Top,,0000,0000,0000,,Help me. In my kit there.
+Dialogue: 0,00:22:54.83,00:22:56.63,Bot,,0000,0000,0000,,Poche de gauche, il y a une seringue.
+Dialogue: 0,00:22:54.91,00:22:56.71,Top,,0000,0000,0000,,In the pocket on the left there's a syringe.
+Dialogue: 0,00:22:56.63,00:22:58.13,Bot,,0000,0000,0000,,Sortez-la.
+Dialogue: 0,00:22:57.33,00:22:58.83,Top,,0000,0000,0000,,Get it out.
+Dialogue: 0,00:22:58.13,00:22:59.43,Bot,,0000,0000,0000,,Prenez l'aiguille.
+Dialogue: 0,00:22:58.83,00:23:00.13,Top,,0000,0000,0000,,Take the needle.
+Dialogue: 0,00:23:00.43,00:23:02.13,Bot,,0000,0000,0000,,Il y a un petit flacon dans le fond.
+Dialogue: 0,00:23:00.99,00:23:02.69,Top,,0000,0000,0000,,There's a little bottle at the bottom.
+Dialogue: 0,00:23:02.13,00:23:04.33,Bot,,0000,0000,0000,,Vous désinfectez avec de l'alcool.
+Dialogue: 0,00:23:03.13,00:23:05.19,Top,,0000,0000,0000,,Disinfect it with alcohol.
+Dialogue: 0,00:23:04.33,00:23:07.13,Bot,,0000,0000,0000,,Allez. Enfoncez la seringue,\Nemportez tout le liquide.
+Dialogue: 0,00:23:05.41,00:23:07.83,Top,,0000,0000,0000,,Go on. Pull the syringe. Suck up all the liquid.
+Dialogue: 0,00:23:07.13,00:23:09.23,Bot,,0000,0000,0000,,Madame, madame !
+Dialogue: 0,00:23:08.09,00:23:10.19,Top,,0000,0000,0000,,Madame, Madame !
+Dialogue: 0,00:23:10.23,00:23:14.03,Bot,,0000,0000,0000,,Elle fait un malaise cardiaque.\NIl faut la transporter à l'hôpital.
+Dialogue: 0,00:23:12.10,00:23:14.73,Top,,0000,0000,0000,,She's having a cardiac failure.\NWe need to get her to hospital.
+Dialogue: 0,00:23:14.04,00:23:15.74,Bot,,0000,0000,0000,,Vous pouvez prendre en charge le bébé ?
+Dialogue: 0,00:23:14.74,00:23:16.44,Top,,0000,0000,0000,,Can you look after the baby ?
+Dialogue: 0,00:23:15.74,00:23:17.44,Bot,,0000,0000,0000,,Mais non. Je ne la connais pas. C'est...
+Dialogue: 0,00:23:16.44,00:23:18.14,Top,,0000,0000,0000,,No, I don't know how. It's....
+Dialogue: 0,00:23:17.44,00:23:19.44,Bot,,0000,0000,0000,,J'ai besoin d'aide, nom de Dieu.
+Dialogue: 0,00:23:18.14,00:23:20.14,Top,,0000,0000,0000,,My God, I need help.
+Dialogue: 0,00:23:19.44,00:23:22.24,Bot,,0000,0000,0000,,C'est une camarade que nous avons ramassée\Nà Hendaye. Un bébé, maintenant ? Non.
+Dialogue: 0,00:23:20.14,00:23:22.94,Top,,0000,0000,0000,,She's a Comrade who landed on our doorstep.\NNow a baby. No !
+Dialogue: 0,00:23:26.24,00:23:28.24,Bot,,0000,0000,0000,,Serrez-vous contre moi, les enfants.
+Dialogue: 0,00:23:26.94,00:23:28.94,Top,,0000,0000,0000,,Come close to me children.
+Dialogue: 0,00:23:28.24,00:23:29.74,Bot,,0000,0000,0000,,Serrez-vous contre moi.
+Dialogue: 0,00:23:28.94,00:23:30.44,Top,,0000,0000,0000,,Come close to me.
+Dialogue: 0,00:23:35.74,00:23:38.04,Bot,,0000,0000,0000,,C'est bien. Marceau,\Nserre-toi contre moi.
+Dialogue: 0,00:23:36.44,00:23:38.74,Top,,0000,0000,0000,,It's OK, Marceau, come close to me.
+Dialogue: 0,00:23:39.04,00:23:40.84,Bot,,0000,0000,0000,,Je veux rentrer à la maison.
+Dialogue: 0,00:23:39.74,00:23:41.67,Top,,0000,0000,0000,,I want to go home.
+Dialogue: 0,00:23:41.84,00:23:43.44,Bot,,0000,0000,0000,,C'est une égratignure. Viens.
+Dialogue: 0,00:23:42.19,00:23:44.09,Top,,0000,0000,0000,,It's only a scratch. Come on.
+Dialogue: 0,00:23:44.44,00:23:46.84,Bot,,0000,0000,0000,,Ils vont venir nous chercher.\NNe vous inquiétez pas.
+Dialogue: 0,00:23:44.64,00:23:47.04,Top,,0000,0000,0000,,Your parents are going to come and look for us.\NDon't worry.
+Dialogue: 0,00:23:46.85,00:23:48.75,Bot,,0000,0000,0000,,Ils vont venir nous chercher.
+Dialogue: 0,00:23:47.93,00:23:49.83,Top,,0000,0000,0000,,They're going to come and look for us.
+Dialogue: 0,00:23:55.75,00:23:57.95,Bot,,0000,0000,0000,,Vous étiez combien de garçons ce matin?
+Dialogue: 0,00:23:56.76,00:23:58.65,Top,,0000,0000,0000,,How many boys were there this morning ?
+Dialogue: 0,00:23:57.95,00:23:59.35,Bot,,0000,0000,0000,,Je ne sais pas, maîtresse.
+Dialogue: 0,00:23:58.65,00:24:00.05,Top,,0000,0000,0000,,I don't know Mistress.
+Dialogue: 0,00:24:01.15,00:24:07.30,Top,,0000,0000,0000,,I know. There were 11, Mistress. Marinette said\Nthere were 8 of us and 11 of them, and that..
+Dialogue: 0,00:24:02.35,00:24:06.95,Bot,,0000,0000,0000,,Je sais. Ils étaient 11, maîtresse. Même que\NMarinette a dit qu'on était 8 et eux 11...
+Dialogue: 0,00:24:06.95,00:24:09.05,Bot,,0000,0000,0000,,.. et qu'il y avait 3 garçons\Nqui allaient s'embêter.
+Dialogue: 0,00:24:07.55,00:24:09.65,Top,,0000,0000,0000,,there were 3 boys\Nwho were going to get bored.
+Dialogue: 0,00:24:09.05,00:24:11.15,Bot,,0000,0000,0000,,Oui, alors.
+Dialogue: 0,00:24:10.06,00:24:12.16,Top,,0000,0000,0000,,Yes, OK.
+Dialogue: 0,00:24:12.15,00:24:14.75,Bot,,0000,0000,0000,,Levez-vous. Mettez-vous\Nen rang. En file.
+Dialogue: 0,00:24:12.85,00:24:15.45,Top,,0000,0000,0000,,Get up. Stand in row. In line.
+Dialogue: 0,00:24:14.75,00:24:17.75,Bot,,0000,0000,0000,,Les garçons d'un côté, par\Nlà, les filles de l'autre.
+Dialogue: 0,00:24:15.77,00:24:18.34,Top,,0000,0000,0000,,Boys on one side there, girls on the other.
+Dialogue: 0,00:24:17.75,00:24:19.45,Bot,,0000,0000,0000,,Marceau, tu restes avec moi.
+Dialogue: 0,00:24:18.48,00:24:20.18,Top,,0000,0000,0000,,Marceau, you stay with me.
+Dialogue: 0,00:24:20.72,00:24:22.07,Top,,0000,0000,0000,,Come on
+Dialogue: 0,00:24:23.45,00:24:24.65,Bot,,0000,0000,0000,,Avancez.
+Dialogue: 0,00:24:23.98,00:24:25.18,Top,,0000,0000,0000,,Come forward.
+Dialogue: 0,00:24:36.66,00:24:38.06,Bot,,0000,0000,0000,,Il en manque un !
+Dialogue: 0,00:24:37.67,00:24:39.07,Top,,0000,0000,0000,,We're missing one !
+Dialogue: 0,00:24:38.06,00:24:39.86,Bot,,0000,0000,0000,,Il en manque un !
+Dialogue: 0,00:24:39.32,00:24:40.67,Top,,0000,0000,0000,,We're missing one !
+Dialogue: 0,00:24:39.86,00:24:41.86,Bot,,0000,0000,0000,,Il en manque un ! Il manque Gustave.
+Dialogue: 0,00:24:40.69,00:24:42.69,Top,,0000,0000,0000,,We're missing one !\NGustave is missing.
+Dialogue: 0,00:24:43.04,00:24:45.05,Top,,0000,0000,0000,,Gustave. Gustave !
+Dialogue: 0,00:24:43.86,00:24:44.96,Bot,,0000,0000,0000,,Gustave. Gustave !
+Dialogue: 0,00:24:48.75,00:24:52.86,Top,,0000,0000,0000,,Come on, Marceau.\NHow can we go without Gustave ?
+Dialogue: 0,00:24:49.96,00:24:52.86,Bot,,0000,0000,0000,,Viens, Marceau. Sans\NGustave, comment on va faire ?
+Dialogue: 0,00:24:52.86,00:24:54.96,Bot,,0000,0000,0000,,Je ne sais pas.
+Dialogue: 0,00:24:54.79,00:24:56.22,Top,,0000,0000,0000,,I don't know.
+Dialogue: 0,00:24:56.29,00:25:01.77,Top,,0000,0000,0000,,Where's Gustave.\NGustave. Gustave. Gustave. ...
+Dialogue: 0,00:24:57.96,00:25:00.66,Bot,,0000,0000,0000,,Oh Gustave. Gustave.\NGustave. Gustave. ...
+Dialogue: 0,00:25:25.66,00:25:27.66,Bot,,0000,0000,0000,,Hé oh, d'où tu sors toi ?
+Dialogue: 0,00:25:26.68,00:25:28.68,Top,,0000,0000,0000,,Hey. Where did you come from ?
+Dialogue: 0,00:25:29.66,00:25:31.56,Bot,,0000,0000,0000,,Tu as peur ? Qu'est-ce qui t'arrive ?
+Dialogue: 0,00:25:30.80,00:25:32.22,Top,,0000,0000,0000,,Are you frightened ? What's happened ?
+Dialogue: 0,00:25:31.56,00:25:33.56,Bot,,0000,0000,0000,,Je me suis perdu.
+Dialogue: 0,00:25:32.84,00:25:34.38,Top,,0000,0000,0000,,I was lost.
+Dialogue: 0,00:25:33.57,00:25:35.47,Bot,,0000,0000,0000,,Tu t'es perdu d'où ?
+Dialogue: 0,00:25:34.79,00:25:36.69,Top,,0000,0000,0000,,You were lost where ?
+Dialogue: 0,00:25:38.47,00:25:40.27,Bot,,0000,0000,0000,,J'étais avec la classe...
+Dialogue: 0,00:25:39.17,00:25:40.97,Top,,0000,0000,0000,,I was with the class...
+Dialogue: 0,00:25:41.18,00:25:43.68,Top,,0000,0000,0000,,... then I ran away and I was lost.
+Dialogue: 0,00:25:41.27,00:25:42.87,Bot,,0000,0000,0000,,... puis j'ai couru et je me suis perdu.
+Dialogue: 0,00:25:44.87,00:25:47.57,Bot,,0000,0000,0000,,Eh moi aussi je me suis\Nperdu, il y a longtemps.
+Dialogue: 0,00:25:46.44,00:25:48.97,Top,,0000,0000,0000,,Me too....I've been lost for a long time.
+Dialogue: 0,00:25:47.57,00:25:49.67,Bot,,0000,0000,0000,,Comment tu t'appelles?
+Dialogue: 0,00:25:49.38,00:25:51.11,Top,,0000,0000,0000,,What's your name ?
+Dialogue: 0,00:25:49.67,00:25:51.67,Bot,,0000,0000,0000,,Gustave.
+Dialogue: 0,00:25:51.13,00:25:52.51,Top,,0000,0000,0000,,Gustave.
+Dialogue: 0,00:25:51.67,00:25:53.77,Bot,,0000,0000,0000,,Moi c'est Jacques.
+Dialogue: 0,00:25:52.54,00:25:54.64,Top,,0000,0000,0000,,Mine's Jacques.
+Dialogue: 0,00:25:53.77,00:25:55.47,Bot,,0000,0000,0000,,Tu n'es plus perdu\Npuisque je t'ai trouvé.
+Dialogue: 0,00:25:55.02,00:25:56.55,Top,,0000,0000,0000,,You're not lost now. I've found you.
+Dialogue: 0,00:25:56.57,00:25:58.29,Top,,0000,0000,0000,,What's your spike called ?
+Dialogue: 0,00:25:57.47,00:26:00.97,Bot,,0000,0000,0000,,Comment il s'appelle ton bled ? Mon\Nquoi ? La ville où il y a l'école.
+Dialogue: 0,00:25:59.01,00:26:01.38,Top,,0000,0000,0000,,My what ?\NThe town where your school is.
+Dialogue: 0,00:26:00.97,00:26:03.07,Bot,,0000,0000,0000,,Villeneuve.
+Dialogue: 0,00:26:02.37,00:26:03.68,Top,,0000,0000,0000,,Villeneuve.
+Dialogue: 0,00:26:03.08,00:26:04.28,Bot,,0000,0000,0000,,Et c'est par où, Villeneuve ?
+Dialogue: 0,00:26:03.70,00:26:05.20,Top,,0000,0000,0000,,And where is Villeneuve ?
+Dialogue: 0,00:26:05.23,00:26:08.06,Top,,0000,0000,0000,,I don't know....over there.
+Dialogue: 0,00:26:05.28,00:26:07.58,Bot,,0000,0000,0000,,Euh, je ne sais pas. C'est par là.
+Dialogue: 0,00:26:09.58,00:26:10.48,Bot,,0000,0000,0000,,Allez, viens.
+Dialogue: 0,00:26:10.59,00:26:12.32,Top,,0000,0000,0000,,Let's go, come on.
+Dialogue: 0,00:26:13.48,00:26:16.78,Bot,,0000,0000,0000,,On ne t'a jamais appris à l'école\Nqu'il faut écouter les grands ?
+Dialogue: 0,00:26:15.14,00:26:18.44,Top,,0000,0000,0000,,Didn't they teach you at school to listen to adults.
+Dialogue: 0,00:26:18.78,00:26:19.68,Bot,,0000,0000,0000,,Hein ? Allez.
+Dialogue: 0,00:26:18.99,00:26:21.42,Top,,0000,0000,0000,,Eh ?   Let's go.
+Dialogue: 0,00:26:28.68,00:26:31.68,Bot,,0000,0000,0000,,Comment tu as pu me faire un\Ncoup pareil avec les tracts ?
+Dialogue: 0,00:26:29.32,00:26:32.32,Top,,0000,0000,0000,,How could you do this to me with the leaflets ?
+Dialogue: 0,00:26:32.68,00:26:33.98,Bot,,0000,0000,0000,,Quels tracts ?
+Dialogue: 0,00:26:33.38,00:26:34.68,Top,,0000,0000,0000,,What leaflets ?
+Dialogue: 0,00:26:34.98,00:26:38.08,Bot,,0000,0000,0000,,Attendez. Il n'y a que vous et Mme Inès qui\Nsavez vous servir de la machine à alcool.
+Dialogue: 0,00:26:35.27,00:26:38.84,Top,,0000,0000,0000,,Listen. There's only you and Madame Inès who\Nknow how to use the spirit printing machine.
+Dialogue: 0,00:26:39.08,00:26:41.28,Bot,,0000,0000,0000,,Et je ne vois pas Mme Inès\Nen bolchevique.
+Dialogue: 0,00:26:39.78,00:26:42.49,Top,,0000,0000,0000,,And I don't see Madame Inès as a Bolshevik.
+Dialogue: 0,00:26:43.28,00:26:45.28,Bot,,0000,0000,0000,,Vos opinions politiques, je m'en fous.
+Dialogue: 0,00:26:43.98,00:26:46.27,Top,,0000,0000,0000,,I don't give a damn about your political opinions.
+Dialogue: 0,00:26:45.29,00:26:47.69,Bot,,0000,0000,0000,,... tant que ça ne déborde\Npas dans le travail.
+Dialogue: 0,00:26:46.33,00:26:48.73,Top,,0000,0000,0000,,... as long as they don't spill over into work.
+Dialogue: 0,00:26:48.69,00:26:52.39,Bot,,0000,0000,0000,,Mais, faire de la propagande à la\Nscierie en ce moment, franchement...
+Dialogue: 0,00:26:49.39,00:26:53.09,Top,,0000,0000,0000,,But to spread propaganda at\Nthe sawmill, right now, frankly...
+Dialogue: 0,00:26:53.39,00:26:55.49,Bot,,0000,0000,0000,,Et puis moi je ne suis pas communiste.
+Dialogue: 0,00:26:54.55,00:26:56.65,Top,,0000,0000,0000,,I'm not a Communist.
+Dialogue: 0,00:26:56.49,00:26:58.99,Bot,,0000,0000,0000,,Mais si mon frère me demande\Nd'aller prévenir sa femme...
+Dialogue: 0,00:26:56.67,00:26:59.17,Top,,0000,0000,0000,,But if my brother asks me to go and warn his wife...
+Dialogue: 0,00:27:00.99,00:27:04.29,Bot,,0000,0000,0000,,La politique et la famille, il\Nne faut pas comparer, M. Schwartz.
+Dialogue: 0,00:27:02.32,00:27:05.62,Top,,0000,0000,0000,,Monsieur Schwartz you can't compare\Nfamily with politics.
+Dialogue: 0,00:27:08.29,00:27:10.19,Bot,,0000,0000,0000,,Et merde. Des réfugiés !
+Dialogue: 0,00:27:08.77,00:27:10.99,Top,,0000,0000,0000,,Shit. Refugees !
+Dialogue: 0,00:27:11.19,00:27:12.69,Bot,,0000,0000,0000,,Non, c'est la classe de Gustave.
+Dialogue: 0,00:27:11.89,00:27:13.89,Top,,0000,0000,0000,,No, it's Gustave's class.
+Dialogue: 0,00:27:17.69,00:27:18.99,Bot,,0000,0000,0000,,Papa !
+Dialogue: 0,00:27:18.02,00:27:19.90,Top,,0000,0000,0000,,Papa !
+Dialogue: 0,00:27:19.99,00:27:21.39,Bot,,0000,0000,0000,,Papa ! Marceau !
+Dialogue: 0,00:27:19.99,00:27:21.88,Top,,0000,0000,0000,,Papa !\NMarceau !
+Dialogue: 0,00:27:21.39,00:27:22.39,Bot,,0000,0000,0000,,Qu'est-ce qui s'est passé ?
+Dialogue: 0,00:27:21.97,00:27:22.97,Top,,0000,0000,0000,,What happened ?
+Dialogue: 0,00:27:22.40,00:27:24.90,Bot,,0000,0000,0000,,Il y a eu un avion, il\Nnous a tiré dessus. Papa.
+Dialogue: 0,00:27:23.00,00:27:25.50,Top,,0000,0000,0000,,There was a plane. It fired on us Papa.
+Dialogue: 0,00:27:24.90,00:27:26.30,Bot,,0000,0000,0000,,Il y a des copains qui sont morts.
+Dialogue: 0,00:27:25.60,00:27:27.00,Top,,0000,0000,0000,,Some of the kids died.
+Dialogue: 0,00:27:26.30,00:27:28.30,Bot,,0000,0000,0000,,Tu saignes ?
+Dialogue: 0,00:27:27.61,00:27:29.00,Top,,0000,0000,0000,,You're bleeding ?
+Dialogue: 0,00:27:28.30,00:27:30.00,Bot,,0000,0000,0000,,Bah je te dis que ce n'est rien.
+Dialogue: 0,00:27:29.00,00:27:30.70,Top,,0000,0000,0000,,It's nothing.
+Dialogue: 0,00:27:30.00,00:27:31.80,Bot,,0000,0000,0000,,Michael, il est mort.
+Dialogue: 0,00:27:30.70,00:27:32.50,Top,,0000,0000,0000,,Michaël is dead.
+Dialogue: 0,00:27:41.79,00:27:42.99,Top,,0000,0000,0000,,Gustave.
+Dialogue: 0,00:27:41.80,00:27:42.50,Bot,,0000,0000,0000,,Gustave.
+Dialogue: 0,00:27:42.50,00:27:44.80,Bot,,0000,0000,0000,,Ce n'est pas lui. Ce n'est pas Gustave.
+Dialogue: 0,00:27:43.01,00:27:45.31,Top,,0000,0000,0000,,It's not him. It's not Gustave.
+Dialogue: 0,00:27:46.80,00:27:51.40,Bot,,0000,0000,0000,,Ce n'est pas lui. Il a eu peur. Il\Na dû courir. On l'a cherché partout.
+Dialogue: 0,00:27:48.00,00:27:52.10,Top,,0000,0000,0000,,It's not him. He was frightened.\NHe had to run. We looked for him everywhere.
+Dialogue: 0,00:27:51.40,00:27:53.50,Bot,,0000,0000,0000,,Il n'est pas blessé,\Nsinon on l'aurait trouvé.
+Dialogue: 0,00:27:52.10,00:27:54.20,Top,,0000,0000,0000,,He's not injured. If so, we'd have seen him.
+Dialogue: 0,00:27:53.50,00:27:54.70,Bot,,0000,0000,0000,,Il est où, alors ?
+Dialogue: 0,00:27:54.20,00:27:55.87,Top,,0000,0000,0000,,Where is he then ?
+Dialogue: 0,00:27:54.71,00:27:57.31,Bot,,0000,0000,0000,,Il est où ?
+Dialogue: 0,00:27:56.76,00:27:58.44,Top,,0000,0000,0000,,Where is he ?
+Dialogue: 0,00:27:58.31,00:28:02.11,Bot,,0000,0000,0000,,T'inquiète pas mon chéri. On va\Nte ramener. On va te soigner.
+Dialogue: 0,00:27:58.83,00:28:00.19,Top,,0000,0000,0000,,He ran away.
+Dialogue: 0,00:28:00.45,00:28:02.63,Top,,0000,0000,0000,,Don't worry darling. They're going to find him\Nand take care of him.
+Dialogue: 0,00:28:02.11,00:28:04.61,Bot,,0000,0000,0000,,Donnez-moi le plus d'enfants possible.
+Dialogue: 0,00:28:03.69,00:28:06.19,Top,,0000,0000,0000,,Give me as many children as possible.
+Dialogue: 0,00:28:08.54,00:28:14.59,Top,,0000,0000,0000,,Good. Who's going with Monsieur Schwartz ?\NYou, you... you...
+Dialogue: 0,00:28:11.61,00:28:13.81,Bot,,0000,0000,0000,,Bon. Qui va aller avec M.\NSchwartz? Toi, toi... toi...
+Dialogue: 0,00:28:13.81,00:28:15.51,Bot,,0000,0000,0000,,Il a dû aller à la maison.
+Dialogue: 0,00:28:14.88,00:28:16.58,Top,,0000,0000,0000,,He has to have gone home.
+Dialogue: 0,00:28:15.51,00:28:16.91,Bot,,0000,0000,0000,,Ce n'est pas loin.
+Dialogue: 0,00:28:16.62,00:28:18.02,Top,,0000,0000,0000,,It's not far.
+Dialogue: 0,00:28:16.91,00:28:17.91,Bot,,0000,0000,0000,,Les autres, vous restez près de moi.
+Dialogue: 0,00:28:18.72,00:28:20.07,Top,,0000,0000,0000,,Go on. Go on
+Dialogue: 0,00:28:20.54,00:28:21.91,Top,,0000,0000,0000,,The rest of you, stay close to me.
+Dialogue: 0,00:28:21.91,00:28:23.41,Bot,,0000,0000,0000,,Ne vous inquiétez pas. On\Nva revenir avec des secours.
+Dialogue: 0,00:28:22.18,00:28:24.79,Top,,0000,0000,0000,,Don't worry, they're going to come back with help. OK
+Dialogue: 0,00:28:25.41,00:28:27.81,Bot,,0000,0000,0000,,D'accord ? Allez, on y\Nva. Attention à toi.
+Dialogue: 0,00:28:25.69,00:28:28.09,Top,,0000,0000,0000,, Come on.
+Dialogue: 0,00:28:31.48,00:28:34.00,Top,,0000,0000,0000,,Madame ! Open your eyes, Madame.
+Dialogue: 0,00:28:31.81,00:28:33.81,Bot,,0000,0000,0000,,Madame ! Ouvrez vos yeux, madame.
+Dialogue: 0,00:28:34.81,00:28:36.31,Bot,,0000,0000,0000,,Restez éveillée, madame.
+Dialogue: 0,00:28:35.44,00:28:37.33,Top,,0000,0000,0000,,Stay awake, Madame.
+Dialogue: 0,00:28:36.32,00:28:38.22,Bot,,0000,0000,0000,,Faut pas dormir.
+Dialogue: 0,00:28:37.66,00:28:39.56,Top,,0000,0000,0000,,You mustn't sleep.
+Dialogue: 0,00:28:50.22,00:28:51.62,Bot,,0000,0000,0000,,Je suis médecin.
+Dialogue: 0,00:28:51.22,00:28:53.33,Top,,0000,0000,0000,,I'm a doctor.     I'm a doctor.
+Dialogue: 0,00:28:52.62,00:28:54.72,Bot,,0000,0000,0000,,Je suis médecin. Ah, sergent!
+Dialogue: 0,00:28:53.74,00:28:55.00,Top,,0000,0000,0000,, Sergeant !
+Dialogue: 0,00:28:54.72,00:28:58.32,Bot,,0000,0000,0000,,J'ai une parturiente qui fait une hémorragie de la\Ndélivrance. Il faut l'emmener d'urgence à l'hôpital St Vincent.
+Dialogue: 0,00:28:55.30,00:28:58.90,Top,,0000,0000,0000,,I've a patient who's haemorrhaged during labour.\NShe needs to be taken urgently to St Vincent Hospital.
+Dialogue: 0,00:28:58.72,00:28:59.92,Bot,,0000,0000,0000,,Il n'y a plus d'hôpital.
+Dialogue: 0,00:28:59.42,00:29:00.62,Top,,0000,0000,0000,,There no longer is a hospital !
+Dialogue: 0,00:28:59.92,00:29:01.62,Bot,,0000,0000,0000,,Il a été évacué ce matin.
+Dialogue: 0,00:29:00.62,00:29:02.32,Top,,0000,0000,0000,,It was evacuated this morning.
+Dialogue: 0,00:29:01.62,00:29:03.52,Bot,,0000,0000,0000,,Mais pourquoi, nom de Dieu !?
+Dialogue: 0,00:29:02.82,00:29:04.27,Top,,0000,0000,0000,,But in the name of God why ?
+Dialogue: 0,00:29:03.52,00:29:05.12,Bot,,0000,0000,0000,,Du calme, monsieur.
+Dialogue: 0,00:29:04.38,00:29:05.98,Top,,0000,0000,0000,,Be calm, Monsieur.
+Dialogue: 0,00:29:05.42,00:29:07.92,Bot,,0000,0000,0000,,Où est l'antenne\Nmédicale de la 56e DI?
+Dialogue: 0,00:29:06.40,00:29:08.62,Top,,0000,0000,0000,,Where's the medical station\Nof the 56th Infantry Division.
+Dialogue: 0,00:29:07.92,00:29:10.72,Bot,,0000,0000,0000,,On ne communique pas ces\Ninformations-là aux civils, monsieur.
+Dialogue: 0,00:29:08.74,00:29:11.54,Top,,0000,0000,0000,,They don't use that for civilians' needs.
+Dialogue: 0,00:29:11.03,00:29:14.33,Bot,,0000,0000,0000,,Si cette femme ne reçoit pas une\Ntransfusion dans l'heure, elle est morte.
+Dialogue: 0,00:29:12.13,00:29:15.43,Top,,0000,0000,0000,,If this woman doesn't get a transfusion\Nin the next hour she'll die.
+Dialogue: 0,00:29:15.33,00:29:17.23,Bot,,0000,0000,0000,,La 56e DI, elle s'est rendue hier.
+Dialogue: 0,00:29:15.84,00:29:17.74,Top,,0000,0000,0000,,The 56th Division left yesterday.
+Dialogue: 0,00:29:17.33,00:29:20.33,Bot,,0000,0000,0000,,A part quelques régiments\Nqui sont passés en Suisse.
+Dialogue: 0,00:29:18.39,00:29:21.03,Top,,0000,0000,0000,,Except a few regiments which went into Switzerland.
+Dialogue: 0,00:29:20.33,00:29:22.63,Bot,,0000,0000,0000,,Depuis que les Allemands sont\Nà Besançon, c'est la panique.
+Dialogue: 0,00:29:21.03,00:29:23.33,Top,,0000,0000,0000,,Since the Germans reached Besançon it's been panic.
+Dialogue: 0,00:29:22.63,00:29:27.53,Bot,,0000,0000,0000,,D'ailleurs ils sont à\NVilleneuve maintenant.
+Dialogue: 0,00:29:25.13,00:29:27.21,Top,,0000,0000,0000,,Moreover they're in Villeneuve now.
+Dialogue: 0,00:29:26.53,00:29:28.43,Bot,,0000,0000,0000,,Vous êtes sûr?
+Dialogue: 0,00:29:28.04,00:29:28.90,Top,,0000,0000,0000,,You're sure ?
+Dialogue: 0,00:29:29.11,00:29:32.22,Top,,0000,0000,0000,,You haven't heard ? I think they\Ngot as far as the railway yards.
+Dialogue: 0,00:29:29.43,00:29:32.13,Bot,,0000,0000,0000,,Vous n'entendez pas ? Je pense\Nqu'ils vont à la gare de triage.
+Dialogue: 0,00:29:32.13,00:29:34.63,Bot,,0000,0000,0000,,Il doit bien y avoir une antenne\Nmédicale pas trop loin, non ?
+Dialogue: 0,00:29:33.21,00:29:35.71,Top,,0000,0000,0000,,There must be a military hospital not far away ?
+Dialogue: 0,00:29:35.63,00:29:39.83,Bot,,0000,0000,0000,,Il y a celle du corps d'armée à Sayolle à 20 km.\NMais je ne sais pas s'ils auront du sang.
+Dialogue: 0,00:29:36.01,00:29:40.76,Top,,0000,0000,0000,,There's the Army Corps at Sayolle,\N20km away. But I don't know if they have blood.
+Dialogue: 0,00:29:46.33,00:29:49.53,Bot,,0000,0000,0000,,2 000 francs pour vous si vous emmenez\Ncette femme à Sayolle. Tout de suite.
+Dialogue: 0,00:29:47.03,00:29:50.23,Top,,0000,0000,0000,,2,000 francs for you if you take her to Sayolle. Now.
+Dialogue: 0,00:29:49.54,00:29:51.24,Bot,,0000,0000,0000,,Et le barrage ?
+Dialogue: 0,00:29:51.11,00:29:53.76,Top,,0000,0000,0000,,And our checkpoint ? We have our orders !
+Dialogue: 0,00:29:52.24,00:29:55.24,Bot,,0000,0000,0000,,On a des ordres. Vous barrez quoi ?\NPuisque les Allemands sont déjà là !
+Dialogue: 0,00:29:53.94,00:29:56.94,Top,,0000,0000,0000,,What is there to check ? The Germans are already here !
+Dialogue: 0,00:30:00.24,00:30:01.64,Bot,,0000,0000,0000,,3 000 !
+Dialogue: 0,00:30:00.94,00:30:02.34,Top,,0000,0000,0000,,3,000 francs !
+Dialogue: 0,00:30:06.64,00:30:10.34,Bot,,0000,0000,0000,,D'accord... Je ne vous garantis\Npas qu'ils auront du sang.
+Dialogue: 0,00:30:07.34,00:30:11.04,Top,,0000,0000,0000,,OK ....I don't promise they have blood.
+Dialogue: 0,00:30:11.32,00:30:13.21,Top,,0000,0000,0000,,Pierre, Jacques.
+Dialogue: 0,00:30:11.34,00:30:12.44,Bot,,0000,0000,0000,,Pierre, Jacques.
+Dialogue: 0,00:30:15.44,00:30:17.44,Bot,,0000,0000,0000,,Venez, madame. Venez.
+Dialogue: 0,00:30:15.95,00:30:18.13,Top,,0000,0000,0000,,Come on, Madame. Come on.
+Dialogue: 0,00:30:18.44,00:30:19.84,Bot,,0000,0000,0000,,Appuyez-vous.
+Dialogue: 0,00:30:19.24,00:30:21.10,Top,,0000,0000,0000,,Lean on us.
+Dialogue: 0,00:30:42.84,00:30:45.14,Bot,,0000,0000,0000,,Qu'est-ce que vous\Nvoulez qu'on en fasse?
+Dialogue: 0,00:30:44.35,00:30:46.03,Top,,0000,0000,0000,,What do you want us to do ?
+Dialogue: 0,00:30:45.14,00:30:47.04,Bot,,0000,0000,0000,,Surtout si elle y reste.
+Dialogue: 0,00:30:46.60,00:30:48.50,Top,,0000,0000,0000,,Especially if she stays there.
+Dialogue: 0,00:30:49.04,00:30:51.44,Bot,,0000,0000,0000,,Il sera plus en sécurité avec vous.
+Dialogue: 0,00:30:50.78,00:30:53.18,Top,,0000,0000,0000,,It will be safer with you.
+Dialogue: 0,00:30:52.45,00:30:56.45,Bot,,0000,0000,0000,,Vous me promettez de l'emmener\Nà Sayolle ? Ne vous inquiétez pas.
+Dialogue: 0,00:30:54.14,00:30:58.14,Top,,0000,0000,0000,,You promise to take her to Sayolle ?\NDon't worry.
+Dialogue: 0,00:31:26.45,00:31:28.55,Bot,,0000,0000,0000,,Je vois pas la maison, monsieur.
+Dialogue: 0,00:31:27.15,00:31:29.25,Top,,0000,0000,0000,,Monsieur, I don't see the house.
+Dialogue: 0,00:31:28.55,00:31:30.45,Bot,,0000,0000,0000,,Ne t'inquiète pas, ma\Nchérie, on arrive, on arrive.
+Dialogue: 0,00:31:29.25,00:31:31.15,Top,,0000,0000,0000,,Don't worry my dear, we're getting there.\NWe're getting there.
+Dialogue: 0,00:31:30.45,00:31:31.65,Bot,,0000,0000,0000,,On va tous rentrer chez nous.
+Dialogue: 0,00:31:31.15,00:31:32.35,Top,,0000,0000,0000,,We'll all get home.
+Dialogue: 0,00:31:31.65,00:31:33.15,Bot,,0000,0000,0000,,On va tous rentrer chez nous.
+Dialogue: 0,00:31:32.35,00:31:34.49,Top,,0000,0000,0000,,We'll all get home.
+Dialogue: 0,00:31:36.15,00:31:37.85,Bot,,0000,0000,0000,,Qu'est-ce qui se passe encore ici ?
+Dialogue: 0,00:31:36.74,00:31:38.44,Top,,0000,0000,0000,,What's going on here now ?
+Dialogue: 0,00:31:44.85,00:31:49.15,Bot,,0000,0000,0000,,Vous ne pouvez pas aller plus\Nloin, ça tire dans tous les coins.
+Dialogue: 0,00:31:46.34,00:31:49.32,Top,,0000,0000,0000,,You can't go further. There's firing everywhere.
+Dialogue: 0,00:31:49.15,00:31:51.65,Bot,,0000,0000,0000,,Attendez, je dois ramener les enfants\Nà l'école. Les parents vont les attendre.
+Dialogue: 0,00:31:49.65,00:31:51.80,Top,,0000,0000,0000,,Wait, I have to take these children to the school.\NThe parents will be waiting for them there.
+Dialogue: 0,00:31:51.65,00:31:53.95,Bot,,0000,0000,0000,,Le mieux c'est d'y aller à pied\Nen passant par les petites rues.
+Dialogue: 0,00:31:51.97,00:31:54.27,Top,,0000,0000,0000,,The best is to go there on foot\Nvia all the back lanes.
+Dialogue: 0,00:31:53.95,00:31:55.75,Bot,,0000,0000,0000,,A pied ! Mais qu'est-ce que\Nje vais faire de ma voiture ?
+Dialogue: 0,00:31:54.44,00:31:56.24,Top,,0000,0000,0000,,On foot ! What am I going to do with my car ?
+Dialogue: 0,00:31:55.76,00:31:59.26,Bot,,0000,0000,0000,,Il n'y a pas moyen de contacter les\Npompiers, la mairie ? Je ne sais pas.
+Dialogue: 0,00:31:56.95,00:31:59.37,Top,,0000,0000,0000,,Isn't there a way of contacting the fire brigade,\Nor the town hall.
+Dialogue: 0,00:31:59.26,00:32:02.86,Bot,,0000,0000,0000,,Monsieur, il n'y a plus de mairie, il n'y a plus de\Npompiers. Il faut vous débrouiller. Vous comprenez ?
+Dialogue: 0,00:31:59.39,00:32:03.46,Top,,0000,0000,0000,,Sir, there's no longer a fire brigade or town hall.\NYou have to sort it out yourself. Understand ?
+Dialogue: 0,00:32:05.86,00:32:08.66,Bot,,0000,0000,0000,,Garez-vous là.\NAllongez-vous en sortant.
+Dialogue: 0,00:32:06.15,00:32:09.43,Top,,0000,0000,0000,,Park there. Crouch down when you leave.
+Dialogue: 0,00:32:10.60,00:32:12.62,Top,,0000,0000,0000,,Crouch down.....get out quickly.
+Dialogue: 0,00:32:10.66,00:32:12.46,Bot,,0000,0000,0000,,Allongez-vous... Sortez vite.
+Dialogue: 0,00:32:14.73,00:32:16.23,Top,,0000,0000,0000,,Marceau !      Stay together.
+Dialogue: 0,00:32:18.96,00:32:20.46,Bot,,0000,0000,0000,,Restez groupés.
+Dialogue: 0,00:32:21.46,00:32:23.26,Bot,,0000,0000,0000,,Attention !
+Dialogue: 0,00:32:22.01,00:32:23.43,Top,,0000,0000,0000,,Look out !
+Dialogue: 0,00:32:23.26,00:32:25.46,Bot,,0000,0000,0000,,Faites attention,\Non nous tire dessus !
+Dialogue: 0,00:32:23.82,00:32:25.46,Top,,0000,0000,0000,,Stay be hind the car.
+Dialogue: 0,00:32:25.46,00:32:28.36,Bot,,0000,0000,0000,,Cachez-vous !
+Dialogue: 0,00:32:25.69,00:32:27.50,Top,,0000,0000,0000,,Hide !
+Dialogue: 0,00:32:27.90,00:32:29.20,Top,,0000,0000,0000,,Hide !
+Dialogue: 0,00:32:28.36,00:32:29.66,Bot,,0000,0000,0000,,Cachez-vous !
+Dialogue: 0,00:32:29.43,00:32:32.03,Top,,0000,0000,0000,,Watch out, watch out. Hide !
+Dialogue: 0,00:32:30.66,00:32:33.26,Bot,,0000,0000,0000,,Attention, attention. Cachez-vous !
+Dialogue: 0,00:32:33.27,00:32:39.17,Bot,,0000,0000,0000,,Viens. Marceau je sais\Nque tu as mal. Hein ?
+Dialogue: 0,00:32:33.84,00:32:38.68,Top,,0000,0000,0000,,Come on. Marceau I know you're in pain, Huh ?
+Dialogue: 0,00:32:38.71,00:32:39.71,Top,,0000,0000,0000,,Watch out !
+Dialogue: 0,00:32:39.17,00:32:40.87,Bot,,0000,0000,0000,,Attention ! Mais il faut que\Ntu donnes l'exemple. D'accord ?
+Dialogue: 0,00:32:40.10,00:32:41.80,Top,,0000,0000,0000,,But you've to show an example. OK ?
+Dialogue: 0,00:32:42.87,00:32:44.87,Bot,,0000,0000,0000,,J'ai peur, papa.
+Dialogue: 0,00:32:44.02,00:32:45.46,Top,,0000,0000,0000,,I'm frightened Papa.
+Dialogue: 0,00:32:44.87,00:32:46.57,Bot,,0000,0000,0000,,Mais c'est normal que tu aies peur.
+Dialogue: 0,00:32:45.49,00:32:46.89,Top,,0000,0000,0000,,It's normal that you're frightened.
+Dialogue: 0,00:32:46.57,00:32:48.37,Bot,,0000,0000,0000,,Moi, si j'étais à ta\Nplace, j'aurais peur aussi.
+Dialogue: 0,00:32:47.05,00:32:48.85,Top,,0000,0000,0000,,In your place I'd be frightened too.
+Dialogue: 0,00:32:48.37,00:32:51.17,Bot,,0000,0000,0000,,Oui ? Mais si tu n'y vas pas, tes\Ncopains ils ne vont pas y aller.
+Dialogue: 0,00:32:49.84,00:32:52.64,Top,,0000,0000,0000,,But if you don't go, neither will your friends.
+Dialogue: 0,00:32:52.17,00:32:54.77,Bot,,0000,0000,0000,,D'accord ? Hein !\NCe n'est pas compliqué.
+Dialogue: 0,00:32:52.76,00:32:55.36,Top,,0000,0000,0000,,OK ? It's not complicated.
+Dialogue: 0,00:32:54.77,00:32:59.17,Bot,,0000,0000,0000,,Tu te pousses, tu cours et\Npuis les potes ils restent là.
+Dialogue: 0,00:32:55.47,00:32:59.87,Top,,0000,0000,0000,,You scoot. You run across while the guys stay here.
+Dialogue: 0,00:33:02.17,00:33:05.07,Bot,,0000,0000,0000,,Mais ce matin, tu avais dit\Nque ce n'était pas dangereux!
+Dialogue: 0,00:33:02.98,00:33:05.88,Top,,0000,0000,0000,,But this morning you said it wasn't dangerous !
+Dialogue: 0,00:33:05.57,00:33:08.57,Bot,,0000,0000,0000,,Je ne vais pas me tromper deux\Nfois dans la même journée, non ?
+Dialogue: 0,00:33:06.80,00:33:09.71,Top,,0000,0000,0000,,I'm not going to make a fool of myself\Ntwice in the same day, eh ?
+Dialogue: 0,00:33:13.58,00:33:16.68,Bot,,0000,0000,0000,,Quand je te dis "paré"\Ntu y vas. D'accord.
+Dialogue: 0,00:33:15.60,00:33:17.38,Top,,0000,0000,0000,,When I say "ready"....then go. OK ?
+Dialogue: 0,00:33:16.68,00:33:20.58,Bot,,0000,0000,0000,,Paré ? Vas-y. Cours !
+Dialogue: 0,00:33:19.25,00:33:22.49,Top,,0000,0000,0000,,Ready ? Go. Run !
+Dialogue: 0,00:33:21.58,00:33:23.88,Bot,,0000,0000,0000,,Cours, Marceau, cours.
+Dialogue: 0,00:33:22.85,00:33:25.15,Top,,0000,0000,0000,,Run Marceau, run.
+Dialogue: 0,00:33:24.88,00:33:26.88,Bot,,0000,0000,0000,,Courez. Allez, courez.
+Dialogue: 0,00:33:25.58,00:33:27.58,Top,,0000,0000,0000,,Run ! Go ! Run !
+Dialogue: 0,00:33:27.99,00:33:29.33,Top,,0000,0000,0000,,Go !
+Dialogue: 0,00:34:05.36,00:34:09.01,Top,,0000,0000,0000,,Where's Maman ?\NShe's at home darling.
+Dialogue: 0,00:34:06.88,00:34:09.18,Bot,,0000,0000,0000,,Elle est où, maman ? Elle\Nest à la maison, mon chéri.
+Dialogue: 0,00:34:12.18,00:34:14.28,Bot,,0000,0000,0000,,Il faut partir, M. Schwartz.\NIl faut vraiment partir !
+Dialogue: 0,00:34:12.63,00:34:15.26,Top,,0000,0000,0000,,You need to leave, Monsieur Schwartz.\NYou really need to leave !
+Dialogue: 0,00:34:24.28,00:34:25.38,Bot,,0000,0000,0000,,Jeannine!
+Dialogue: 0,00:34:24.84,00:34:26.73,Top,,0000,0000,0000,,Jeannine !
+Dialogue: 0,00:34:28.43,00:34:30.21,Top,,0000,0000,0000,,Jeannine !
+Dialogue: 0,00:34:29.38,00:34:30.18,Bot,,0000,0000,0000,,Jeannine!
+Dialogue: 0,00:34:45.18,00:34:49.78,Bot,,0000,0000,0000,,Je vais te poser là, bonhomme. Tu vas\Nm'attendre. Papa il revient tout de suite.
+Dialogue: 0,00:34:46.54,00:34:51.14,Top,,0000,0000,0000,,I'm going to leave you there pal. Wait for me.\NPapa will come back soon.
+Dialogue: 0,00:34:53.56,00:34:56.76,Top,,0000,0000,0000,,Jeannine !\NRaymond ?\N Jeannine !
+Dialogue: 0,00:34:53.78,00:34:56.18,Bot,,0000,0000,0000,,Jeannine ! Raymond ? Jeannine !
+Dialogue: 0,00:34:57.19,00:34:59.79,Bot,,0000,0000,0000,,Oh, mon Dieu !\NJ'ai cru que tu rentrerais jamais !
+Dialogue: 0,00:34:58.03,00:35:00.63,Top,,0000,0000,0000,,Oh, you're back. How glad I am.
+Dialogue: 0,00:34:59.79,00:35:00.79,Bot,,0000,0000,0000,,Maman.
+Dialogue: 0,00:35:00.79,00:35:04.49,Bot,,0000,0000,0000,,Maman. Mon fils !
+Dialogue: 0,00:35:01.90,00:35:03.09,Top,,0000,0000,0000,,Maman.
+Dialogue: 0,00:35:03.09,00:35:05.19,Top,,0000,0000,0000,,My little boy !
+Dialogue: 0,00:35:04.49,00:35:05.49,Bot,,0000,0000,0000,,Qu'est-ce qui t'est arrivé, mon amour?
+Dialogue: 0,00:35:05.19,00:35:06.19,Top,,0000,0000,0000,,What happened to you my love ?
+Dialogue: 0,00:35:06.49,00:35:08.49,Bot,,0000,0000,0000,,On était avec la classe et Michaël est mort.
+Dialogue: 0,00:35:06.51,00:35:09.25,Top,,0000,0000,0000,,We were with the teacher, and he's dead.
+Dialogue: 0,00:35:10.49,00:35:12.59,Bot,,0000,0000,0000,,Mais je t'avais dit\Nque c'était dangereux.
+Dialogue: 0,00:35:11.19,00:35:13.29,Top,,0000,0000,0000,,I told you it was dangerous.
+Dialogue: 0,00:35:12.59,00:35:14.99,Bot,,0000,0000,0000,,Je te l'avais dit. Oui, je sais.\NMais arrête, il n'a presque rien.
+Dialogue: 0,00:35:13.29,00:35:15.69,Top,,0000,0000,0000,,I told you.\NYes I know. But stop it, he's not badly hurt.
+Dialogue: 0,00:35:15.99,00:35:19.29,Bot,,0000,0000,0000,,J'ai essayé de t'appeler à la scierie\Nce matin, mais tu ne répondais pas.
+Dialogue: 0,00:35:16.69,00:35:19.62,Top,,0000,0000,0000,,I tried to phone you at the sawmill\Nthis morning but you didn't reply.
+Dialogue: 0,00:35:19.29,00:35:22.09,Bot,,0000,0000,0000,,Mais non, j'étais... Sarah,\Nqu'est-ce qui s'est passé ?
+Dialogue: 0,00:35:19.65,00:35:22.45,Top,,0000,0000,0000,,No, I was... Sarah, what's happened ?
+Dialogue: 0,00:35:22.09,00:35:23.89,Bot,,0000,0000,0000,,Les soldats, monsieur. Ah bon ?
+Dialogue: 0,00:35:23.10,00:35:25.16,Top,,0000,0000,0000,,The soldiers, Sir.\NReally ?
+Dialogue: 0,00:35:25.29,00:35:27.89,Top,,0000,0000,0000,,French...They'd been drinking.\NIt was horrible. What can we do ?
+Dialogue: 0,00:35:25.90,00:35:28.50,Bot,,0000,0000,0000,,Des Français, ils avaient bu, c'était horrible.\NQu'est-ce qu'on peut faire?
+Dialogue: 0,00:35:28.46,00:35:31.96,Top,,0000,0000,0000,,We must leave.\NLet's pack necessities, quickly.
+Dialogue: 0,00:35:28.50,00:35:32.00,Bot,,0000,0000,0000,,On peut partir. Préparons\Nl'indispensable, vite.
+Dialogue: 0,00:35:42.00,00:35:44.40,Bot,,0000,0000,0000,,Un enfant est tombé.
+Dialogue: 0,00:35:43.80,00:35:46.20,Top,,0000,0000,0000,,A child's been killed.
+Dialogue: 0,00:35:49.13,00:35:52.82,Top,,0000,0000,0000,,There's complete panic. Refugees are arriving\Nfrom everywhere. The inhabitants are leaving.
+Dialogue: 0,00:35:49.40,00:35:52.60,Bot,,0000,0000,0000,,C'est la panique dans la rue. Les réfugiés\Narrivent de partout. Les habitants partent.
+Dialogue: 0,00:35:52.60,00:35:53.40,Bot,,0000,0000,0000,,Les voleurs pillent.
+Dialogue: 0,00:35:52.96,00:35:54.32,Top,,0000,0000,0000,,Thieves are looting.
+Dialogue: 0,00:35:53.40,00:35:55.80,Bot,,0000,0000,0000,,Qu'est-ce qu'on peut faire ?
+Dialogue: 0,00:35:54.80,00:35:56.16,Top,,0000,0000,0000,,What can we do ?
+Dialogue: 0,00:35:55.80,00:35:56.70,Bot,,0000,0000,0000,,Rien.
+Dialogue: 0,00:35:56.39,00:35:57.60,Top,,0000,0000,0000,,Nothing.
+Dialogue: 0,00:35:56.70,00:35:58.50,Bot,,0000,0000,0000,,Attendre que ça passe.
+Dialogue: 0,00:35:57.78,00:35:59.27,Top,,0000,0000,0000,,Wait to see what happens.
+Dialogue: 0,00:35:58.50,00:36:00.00,Bot,,0000,0000,0000,,... et boire un verre.
+Dialogue: 0,00:35:59.36,00:36:00.86,Top,,0000,0000,0000,,... and drink a glass or two.
+Dialogue: 0,00:36:01.00,00:36:04.90,Bot,,0000,0000,0000,,Je viens de voir un père de famille assommer\Nun vieillard pour une bouteille d'eau.
+Dialogue: 0,00:36:02.61,00:36:05.60,Top,,0000,0000,0000,,I just saw a father knock down\Nan old man for a bottle of water.
+Dialogue: 0,00:36:04.91,00:36:07.71,Bot,,0000,0000,0000,,La nature humaine, c'est terrible !
+Dialogue: 0,00:36:06.62,00:36:08.41,Top,,0000,0000,0000,,Human nature is terrible !
+Dialogue: 0,00:36:07.71,00:36:10.41,Bot,,0000,0000,0000,,Ce n'est pas la nature humaine qui\Ns'exprime dans ce cas-là, mon petit.
+Dialogue: 0,00:36:08.41,00:36:11.11,Top,,0000,0000,0000,,It's not human nature we're\Nseeing in this case my boy.
+Dialogue: 0,00:36:10.41,00:36:11.71,Bot,,0000,0000,0000,,... c'est le reste.
+Dialogue: 0,00:36:11.29,00:36:12.59,Top,,0000,0000,0000,,... it's everything else.
+Dialogue: 0,00:36:12.21,00:36:13.21,Bot,,0000,0000,0000,,Merci.
+Dialogue: 0,00:36:13.07,00:36:14.07,Top,,0000,0000,0000,,Thanks.
+Dialogue: 0,00:36:21.71,00:36:24.61,Bot,,0000,0000,0000,,C'est drôle qu'on se revoie à cette occasion, hein ?
+Dialogue: 0,00:36:23.22,00:36:26.12,Top,,0000,0000,0000,,It's funny that we meet again\Nunder these circumstances, eh ?
+Dialogue: 0,00:36:26.61,00:36:27.91,Bot,,0000,0000,0000,,Vous êtes bien aux RG ?
+Dialogue: 0,00:36:26.81,00:36:28.41,Top,,0000,0000,0000,,You really are in Intelligence.
+Dialogue: 0,00:36:27.91,00:36:29.61,Bot,,0000,0000,0000,,Oui, ça va.
+Dialogue: 0,00:36:28.98,00:36:29.97,Top,,0000,0000,0000,,Yes, that's it.
+Dialogue: 0,00:36:29.61,00:36:31.11,Bot,,0000,0000,0000,,On fait aller.
+Dialogue: 0,00:36:29.99,00:36:31.49,Top,,0000,0000,0000,,We're leaving.
+Dialogue: 0,00:36:32.11,00:36:34.31,Bot,,0000,0000,0000,,Vous voulez repartir à Dijon ?
+Dialogue: 0,00:36:32.66,00:36:34.86,Top,,0000,0000,0000,,You want to go back to Dijon ?
+Dialogue: 0,00:36:34.31,00:36:37.31,Bot,,0000,0000,0000,,Je ne sais pas. Je serais\Npeut-être plus utile ici ?
+Dialogue: 0,00:36:35.83,00:36:38.83,Top,,0000,0000,0000,,I don't know. Perhaps I'd be more useful here ?
+Dialogue: 0,00:36:40.31,00:36:41.81,Bot,,0000,0000,0000,,Ca barde ! Oui.
+Dialogue: 0,00:36:40.61,00:36:42.39,Top,,0000,0000,0000,,Things are getting rough.\NYes !
+Dialogue: 0,00:36:43.82,00:36:47.12,Bot,,0000,0000,0000,,J'espère juste que les Boches\Nnous laisserons rétablir l'ordre.
+Dialogue: 0,00:36:45.25,00:36:48.55,Top,,0000,0000,0000,,I only hope the Boches let us restore order.
+Dialogue: 0,00:37:03.12,00:37:04.62,Bot,,0000,0000,0000,,Marcel ?
+Dialogue: 0,00:37:04.27,00:37:06.22,Top,,0000,0000,0000,,Marcel ?
+Dialogue: 0,00:37:09.62,00:37:10.72,Bot,,0000,0000,0000,,Le petit n'est pas là ?
+Dialogue: 0,00:37:10.06,00:37:11.77,Top,,0000,0000,0000,,The little guy isn't here ?
+Dialogue: 0,00:37:11.72,00:37:14.12,Bot,,0000,0000,0000,,Non. Il faut que tu ailles\Nle chercher à l'école.
+Dialogue: 0,00:37:12.81,00:37:15.21,Top,,0000,0000,0000,,No. You have to go get him at the school.
+Dialogue: 0,00:37:15.12,00:37:16.32,Bot,,0000,0000,0000,,C'était quoi, toutes ces explosions ?
+Dialogue: 0,00:37:15.29,00:37:17.20,Top,,0000,0000,0000,,What were all those explosions ?
+Dialogue: 0,00:37:30.32,00:37:32.52,Bot,,0000,0000,0000,,Les Allemands sont\Nlà. J'ai vu des chars.
+Dialogue: 0,00:37:31.45,00:37:33.65,Top,,0000,0000,0000,,The Germans are there. I saw tanks.
+Dialogue: 0,00:37:33.52,00:37:34.92,Bot,,0000,0000,0000,,C'était ça les explosions.
+Dialogue: 0,00:37:34.22,00:37:35.62,Top,,0000,0000,0000,,That was the cause of the explosions.
+Dialogue: 0,00:37:34.92,00:37:36.82,Bot,,0000,0000,0000,,Alors, c'est fini ?
+Dialogue: 0,00:37:36.26,00:37:38.16,Top,,0000,0000,0000,,So, it's over ?
+Dialogue: 0,00:37:40.82,00:37:43.02,Bot,,0000,0000,0000,,C'est une guerre impérialiste chez nous.
+Dialogue: 0,00:37:41.52,00:37:43.72,Top,,0000,0000,0000,,It's an Imperialist war in our homes.
+Dialogue: 0,00:37:43.02,00:37:47.92,Bot,,0000,0000,0000,,Les banquiers de Londres contre les banquiers de\NBerlin. On s'en fiche de qui gagne ou qui perd.
+Dialogue: 0,00:37:44.97,00:37:48.78,Top,,0000,0000,0000,,The London bankers versus the Berlin bankers.\NWho cares who wins or loses.
+Dialogue: 0,00:37:48.93,00:37:50.33,Bot,,0000,0000,0000,,Quand même !
+Dialogue: 0,00:37:49.96,00:37:51.65,Top,,0000,0000,0000,,Anyway !
+Dialogue: 0,00:37:52.33,00:37:54.23,Bot,,0000,0000,0000,,Les nazis ici...
+Dialogue: 0,00:37:53.12,00:37:54.64,Top,,0000,0000,0000,,The Nazis here...!
+Dialogue: 0,00:37:54.23,00:37:55.53,Bot,,0000,0000,0000,,Tu n'as pas pris ta théophiline.
+Dialogue: 0,00:37:54.79,00:37:56.27,Top,,0000,0000,0000,,You haven't taken your asthma medicine ?
+Dialogue: 0,00:37:55.53,00:37:56.73,Bot,,0000,0000,0000,,Si.
+Dialogue: 0,00:37:56.32,00:37:57.52,Top,,0000,0000,0000,,Yes.
+Dialogue: 0,00:37:57.73,00:37:59.63,Bot,,0000,0000,0000,,... mais avec la chaleur et l'humidité...
+Dialogue: 0,00:37:57.87,00:38:00.30,Top,,0000,0000,0000,,...but with the heat and humidity...
+Dialogue: 0,00:38:00.63,00:38:02.03,Bot,,0000,0000,0000,,Tu devrais aller à l'école, tu sais.
+Dialogue: 0,00:38:01.07,00:38:03.10,Top,,0000,0000,0000,,You should go to the school, you know.
+Dialogue: 0,00:38:12.03,00:38:13.63,Bot,,0000,0000,0000,,Marcel, qu'est-ce qui se passe ?
+Dialogue: 0,00:38:12.45,00:38:14.44,Top,,0000,0000,0000,,Marcel, what's happened ?
+Dialogue: 0,00:38:14.63,00:38:16.33,Bot,,0000,0000,0000,,Le petit...
+Dialogue: 0,00:38:15.61,00:38:17.31,Top,,0000,0000,0000,,The little one...
+Dialogue: 0,00:38:17.33,00:38:18.83,Bot,,0000,0000,0000,,.. il n'y a rien de grave.
+Dialogue: 0,00:38:17.79,00:38:19.67,Top,,0000,0000,0000,,.. it's not serious.
+Dialogue: 0,00:38:19.23,00:38:21.23,Bot,,0000,0000,0000,,mais pendant la sortie\Npour faire l'herbier...
+Dialogue: 0,00:38:19.89,00:38:22.54,Top,,0000,0000,0000,,But during the walk to the picnic...
+Dialogue: 0,00:38:23.24,00:38:24.84,Bot,,0000,0000,0000,,Il n'y a rien de grave, je te dis.
+Dialogue: 0,00:38:23.94,00:38:25.81,Top,,0000,0000,0000,,I'm telling you, it's not serious.
+Dialogue: 0,00:38:24.84,00:38:27.54,Bot,,0000,0000,0000,,Il y a eu un problème et pour\Nl'instant on ne sait pas où il est.
+Dialogue: 0,00:38:26.14,00:38:28.84,Top,,0000,0000,0000,,There was a problem,\NFor now we don't know where he is.
+Dialogue: 0,00:38:28.54,00:38:30.64,Bot,,0000,0000,0000,,Il n'est pas blessé.\NOn l'aurait retrouvé.
+Dialogue: 0,00:38:29.69,00:38:31.79,Top,,0000,0000,0000,,He wasn't injured, or he would have been found.
+Dialogue: 0,00:38:31.64,00:38:33.14,Bot,,0000,0000,0000,,Il a dû avoir peur\Ndes bruits des combats.
+Dialogue: 0,00:38:31.93,00:38:34.06,Top,,0000,0000,0000,,He must be afraid of the noise of the fighting.
+Dialogue: 0,00:38:34.14,00:38:35.34,Bot,,0000,0000,0000,,Il doit se cacher.
+Dialogue: 0,00:38:34.66,00:38:36.23,Top,,0000,0000,0000,,He has to have hidden.
+Dialogue: 0,00:38:35.34,00:38:36.64,Bot,,0000,0000,0000,,On va le retrouver.
+Dialogue: 0,00:38:36.30,00:38:38.07,Top,,0000,0000,0000,,We'll find him.
+Dialogue: 0,00:38:42.64,00:38:44.54,Bot,,0000,0000,0000,,Mon petit garçon.
+Dialogue: 0,00:38:43.66,00:38:45.84,Top,,0000,0000,0000,,My little boy.
+Dialogue: 0,00:38:46.54,00:38:47.94,Bot,,0000,0000,0000,,Il est dégourdi. Il va s'en sortir.
+Dialogue: 0,00:38:46.82,00:38:49.01,Top,,0000,0000,0000,,He's smart. He's going to get out of it.
+Dialogue: 0,00:38:55.94,00:38:57.54,Bot,,0000,0000,0000,,C'est bon. Tu peux venir.
+Dialogue: 0,00:38:56.89,00:38:58.92,Top,,0000,0000,0000,,It's OK. You can come.
+Dialogue: 0,00:39:02.54,00:39:05.54,Bot,,0000,0000,0000,,Allez. Allez.
+Dialogue: 0,00:39:02.76,00:39:05.76,Top,,0000,0000,0000,,Come on. Come on.
+Dialogue: 0,00:39:20.55,00:39:23.15,Bot,,0000,0000,0000,,C'est encore loin où on va ?\NJe ne sais pas où on va.
+Dialogue: 0,00:39:21.03,00:39:23.96,Top,,0000,0000,0000,,Do we have to go far ?\NI don't know where we're going.
+Dialogue: 0,00:39:25.15,00:39:27.25,Bot,,0000,0000,0000,,Il fait quoi, ton père?
+Dialogue: 0,00:39:26.60,00:39:27.84,Top,,0000,0000,0000,,What does your father do ?
+Dialogue: 0,00:39:27.98,00:39:29.68,Top,,0000,0000,0000,,He works with wood, making boards.
+Dialogue: 0,00:39:28.25,00:39:29.95,Bot,,0000,0000,0000,,Il travaille au bois,\Nil fait des planches.
+Dialogue: 0,00:39:30.37,00:39:34.27,Top,,0000,0000,0000,,Boards are good. With boards you can make a coffin.\NYou know that. Huh ?
+Dialogue: 0,00:39:30.95,00:39:34.85,Bot,,0000,0000,0000,,C'est bon, des planches. Avec des planches\Non fait un cercueil. Tu sais cela ? Hein.
+Dialogue: 0,00:39:36.85,00:39:38.35,Bot,,0000,0000,0000,,Et toi, tu fais quoi ?
+Dialogue: 0,00:39:37.55,00:39:39.67,Top,,0000,0000,0000,,And you, what do you do ?
+Dialogue: 0,00:39:40.00,00:39:41.45,Top,,0000,0000,0000,,Stay there.
+Dialogue: 0,00:39:43.35,00:39:44.75,Bot,,0000,0000,0000,,Bouge pas !
+Dialogue: 0,00:39:44.45,00:39:46.49,Top,,0000,0000,0000,,Don't move !
+Dialogue: 0,00:40:12.37,00:40:13.87,Top,,0000,0000,0000,,Hey !
+Dialogue: 0,00:40:12.75,00:40:14.25,Bot,,0000,0000,0000,,Hé... Ho.
+Dialogue: 0,00:40:14.25,00:40:15.25,Bot,,0000,0000,0000,,Petit !
+Dialogue: 0,00:40:14.85,00:40:16.32,Top,,0000,0000,0000,,Little one !
+Dialogue: 0,00:40:16.25,00:40:17.85,Bot,,0000,0000,0000,,Reviens !
+Dialogue: 0,00:40:16.95,00:40:18.78,Top,,0000,0000,0000,,Come back !
+Dialogue: 0,00:40:21.85,00:40:24.05,Bot,,0000,0000,0000,,Mettez les corps dans le réfectoire.
+Dialogue: 0,00:40:22.94,00:40:25.14,Top,,0000,0000,0000,,Put the body in the refectory.
+Dialogue: 0,00:40:27.06,00:40:28.96,Bot,,0000,0000,0000,,Ca va ? Ca va. Elle va bien.
+Dialogue: 0,00:40:28.11,00:40:30.01,Top,,0000,0000,0000,,How is she ?\NShe's doing OK.
+Dialogue: 0,00:40:30.06,00:40:31.76,Bot,,0000,0000,0000,,On a prévenu monsieur le curé.
+Dialogue: 0,00:40:30.49,00:40:32.92,Top,,0000,0000,0000,,We've informed Monsieur le Curé.\NYes, yes, very good.
+Dialogue: 0,00:40:34.76,00:40:36.56,Bot,,0000,0000,0000,,Pauvre petite.
+Dialogue: 0,00:40:35.63,00:40:37.43,Top,,0000,0000,0000,,Poor little one.
+Dialogue: 0,00:40:37.90,00:40:43.59,Top,,0000,0000,0000,,I could do nothing. Serge, Michaël and Bruno\Nare dead. And I don't know where Gustave is.
+Dialogue: 0,00:40:38.56,00:40:43.76,Bot,,0000,0000,0000,,Je n'ai rien pu faire. Serge, Michaël et Bruno\Nsont morts. Gustave, je ne sais pas où il est.
+Dialogue: 0,00:40:43.56,00:40:46.86,Bot,,0000,0000,0000,,Pourquoi vous avez fait\Ncette sortie sans m'en parler ?
+Dialogue: 0,00:40:44.67,00:40:47.37,Top,,0000,0000,0000,,Why did you go on this outing without talking to me ?
+Dialogue: 0,00:40:46.86,00:40:48.76,Bot,,0000,0000,0000,,Monsieur Fournier ne vous a pas dit ?
+Dialogue: 0,00:40:47.59,00:40:49.09,Top,,0000,0000,0000,,Monsieur Fournier didn't tell you ?
+Dialogue: 0,00:40:48.76,00:40:51.56,Bot,,0000,0000,0000,,Jamais je n'aurais autorisé\Ncela en ce moment, enfin !
+Dialogue: 0,00:40:49.13,00:40:51.93,Top,,0000,0000,0000,,I never authorised it at such a time.
+Dialogue: 0,00:40:51.96,00:40:53.96,Bot,,0000,0000,0000,,Il suffit que je\Nm'absente une journée...
+Dialogue: 0,00:40:52.35,00:40:54.35,Top,,0000,0000,0000,,I'm only away for one day and...
+Dialogue: 0,00:40:56.96,00:41:00.16,Bot,,0000,0000,0000,,Ah ! Aux parents du petit Larcher,\Nqu'est-ce qu'on va leur dire ?
+Dialogue: 0,00:40:58.38,00:41:01.58,Top,,0000,0000,0000,,Oh ! What are we going to tell\Nthe parents of little Larcher ?
+Dialogue: 0,00:41:01.16,00:41:05.36,Bot,,0000,0000,0000,,Monsieur Fournier n'avait pas le droit de\Nfaire cette sortie. Il le savait très bien.
+Dialogue: 0,00:41:02.51,00:41:06.71,Top,,0000,0000,0000,,Monsieur Fournier didn't have the right\Nto decide on an outing. He knew that very well.
+Dialogue: 0,00:41:06.36,00:41:09.96,Bot,,0000,0000,0000,,De plus, vous allez être toute\Nseule pour assumer tout cela.
+Dialogue: 0,00:41:07.06,00:41:10.26,Top,,0000,0000,0000,,In addition, you're going to be\Non your own in accounting for it.
+Dialogue: 0,00:41:09.97,00:41:13.27,Bot,,0000,0000,0000,,Mon garçon ? Il est où, mon garçon ?
+Dialogue: 0,00:41:10.52,00:41:13.82,Top,,0000,0000,0000,,My boy ? Where's my boy ?
+Dialogue: 0,00:41:16.88,00:41:20.38,Top,,0000,0000,0000,,Michaël. Michaël ? Where's Michaël ?
+Dialogue: 0,00:41:18.27,00:41:21.77,Bot,,0000,0000,0000,,Michael. Michael ? Il est où, Michael ?
+Dialogue: 0,00:41:20.85,00:41:22.16,Top,,0000,0000,0000,,Where's Michaël ?
+Dialogue: 0,00:41:25.41,00:41:28.73,Top,,0000,0000,0000,,Poor little one. Lucienne. How are you doing ?
+Dialogue: 0,00:41:25.57,00:41:27.77,Bot,,0000,0000,0000,,Pauvre petite. Lucienne. Ca va aller ?
+Dialogue: 0,00:41:44.77,00:41:46.87,Bot,,0000,0000,0000,,Non. Laissez-moi,\Nnon, laissez-moi !
+Dialogue: 0,00:41:45.30,00:41:47.40,Top,,0000,0000,0000,,No. Leave me, No. leave me !
+Dialogue: 0,00:41:57.87,00:41:59.77,Bot,,0000,0000,0000,,Geneviève, soyez digne !
+Dialogue: 0,00:41:58.35,00:42:00.25,Top,,0000,0000,0000,,Geneviève, be dignified !
+Dialogue: 0,00:42:02.77,00:42:04.07,Bot,,0000,0000,0000,,Relevez-vous, mon enfant.
+Dialogue: 0,00:42:02.92,00:42:05.14,Top,,0000,0000,0000,,Get up my child.
+Dialogue: 0,00:42:07.07,00:42:08.37,Bot,,0000,0000,0000,,Relevez-vous.
+Dialogue: 0,00:42:07.45,00:42:09.21,Top,,0000,0000,0000,,Get up.
+Dialogue: 0,00:42:18.92,00:42:24.37,Top,,0000,0000,0000,,This horrible tragedy is a test God sends us.
+Dialogue: 0,00:42:21.37,00:42:24.37,Bot,,0000,0000,0000,,Ce drame horrible est une\Népreuve que Dieu nous envoie.
+Dialogue: 0,00:42:25.37,00:42:27.37,Bot,,0000,0000,0000,,Mes enfants, agenouillez-vous.
+Dialogue: 0,00:42:25.45,00:42:28.03,Top,,0000,0000,0000,,My children, kneel.
+Dialogue: 0,00:42:27.37,00:42:29.27,Bot,,0000,0000,0000,,...et louons le Seigneur.
+Dialogue: 0,00:42:28.62,00:42:30.52,Top,,0000,0000,0000,,...and praise the Lord.
+Dialogue: 0,00:42:31.27,00:42:34.17,Bot,,0000,0000,0000,,Agenouille-toi s'il te plait.
+Dialogue: 0,00:42:32.28,00:42:35.18,Top,,0000,0000,0000,,Kneel please.
+Dialogue: 0,00:42:37.31,00:42:39.72,Top,,0000,0000,0000,,Our Father who art in heaven...
+Dialogue: 0,00:42:39.27,00:42:40.97,Bot,,0000,0000,0000,,Notre Père qui êtes aux cieux...
+Dialogue: 0,00:42:40.98,00:42:43.08,Bot,,0000,0000,0000,,que votre nom soit sanctifié...
+Dialogue: 0,00:42:41.68,00:42:43.78,Top,,0000,0000,0000,,Hallowed be thy name...
+Dialogue: 0,00:42:45.07,00:42:46.64,Top,,0000,0000,0000,,Thy kingdom come...
+Dialogue: 0,00:42:46.08,00:42:47.38,Bot,,0000,0000,0000,,que votre règne arrive...
+Dialogue: 0,00:42:48.58,00:42:50.58,Top,,0000,0000,0000,,Thy will be done...
+Dialogue: 0,00:42:49.38,00:42:51.38,Bot,,0000,0000,0000,,que votre volonté soit faite...
+Dialogue: 0,00:42:56.38,00:42:59.28,Bot,,0000,0000,0000,,que votre volonté soit faite\Nsur la terre comme au ciel...
+Dialogue: 0,00:42:57.08,00:42:59.98,Top,,0000,0000,0000,,Thy will be done....\NOn Earth as it is in Heaven...
+Dialogue: 0,00:43:02.28,00:43:05.08,Bot,,0000,0000,0000,,donnez-nous aujourd'hui\Nnotre pain quotidien...
+Dialogue: 0,00:43:03.34,00:43:05.54,Top,,0000,0000,0000,,Give us this day...Our daily bread...
+Dialogue: 0,00:43:09.08,00:43:11.18,Bot,,0000,0000,0000,,Pardonnez-nous nos offenses...
+Dialogue: 0,00:43:09.78,00:43:11.60,Top,,0000,0000,0000,,Forgive us our trespasses...
+Dialogue: 0,00:43:13.18,00:43:15.48,Bot,,0000,0000,0000,,comme nous pardonnons à\Nceux qui nous ont offensé...
+Dialogue: 0,00:43:13.64,00:43:15.94,Top,,0000,0000,0000,,As we forgive them...that trespass against us...
+Dialogue: 0,00:43:26.48,00:43:27.98,Bot,,0000,0000,0000,,Chéri, j'ai eu si peur !
+Dialogue: 0,00:43:26.50,00:43:28.39,Top,,0000,0000,0000,,Darling, I was so scared.
+Dialogue: 0,00:43:28.98,00:43:31.78,Bot,,0000,0000,0000,,Qu'est-ce que c'est que ce\Nbébé ? Ta patiente de ce matin ?
+Dialogue: 0,00:43:29.55,00:43:32.04,Top,,0000,0000,0000,,Is that the baby ? Your patient this morning ?
+Dialogue: 0,00:43:31.78,00:43:34.88,Bot,,0000,0000,0000,,Oui. Je t'expliquerai.\NSchwartz est passé te prévenir ?
+Dialogue: 0,00:43:32.06,00:43:35.16,Top,,0000,0000,0000,,Yes. I'll explain. Schwartz warned you ?
+Dialogue: 0,00:43:34.89,00:43:35.99,Bot,,0000,0000,0000,,Il m'a dit qu'il le ferait.
+Dialogue: 0,00:43:35.59,00:43:36.69,Top,,0000,0000,0000,,He told me he would.
+Dialogue: 0,00:43:35.99,00:43:38.69,Bot,,0000,0000,0000,,Oui. Il est venu avec les enfants\Nblessés. Je me suis occupée d'eux.
+Dialogue: 0,00:43:36.69,00:43:39.39,Top,,0000,0000,0000,,Yes. He came with injured children.\NI was busy with them.
+Dialogue: 0,00:43:38.69,00:43:42.69,Bot,,0000,0000,0000,,La classe de l'école principale a été\Nmitraillée par un avion. Il y a eu trois morts.
+Dialogue: 0,00:43:39.39,00:43:43.39,Top,,0000,0000,0000,,The school class was machine-gunned by an aircraft.\NThere were three dead.
+Dialogue: 0,00:43:42.69,00:43:44.39,Bot,,0000,0000,0000,,Bon Dieu. Mais qu'est-ce\Nqu'ils foutaient sur les routes ?
+Dialogue: 0,00:43:43.39,00:43:45.09,Top,,0000,0000,0000,,Good God. Whatever were they doing on the roads ?
+Dialogue: 0,00:43:44.39,00:43:45.39,Bot,,0000,0000,0000,,Je n'en sais rien !
+Dialogue: 0,00:43:45.09,00:43:46.09,Top,,0000,0000,0000,,I don't know !
+Dialogue: 0,00:43:49.39,00:43:53.49,Bot,,0000,0000,0000,,Sa mère a fait une hémorragie de la\Ndélivrance. Je l'ai confiée à des soldats.
+Dialogue: 0,00:43:50.99,00:43:55.09,Top,,0000,0000,0000,,His mother haemorrhaged during the delivery.\NI put her in the hands of the soldiers.
+Dialogue: 0,00:43:54.49,00:43:58.19,Bot,,0000,0000,0000,,Il faut qu'on parte au plus vite.\NPrends juste l'indispensable.
+Dialogue: 0,00:43:55.59,00:43:58.72,Top,,0000,0000,0000,,We need to leave as fast as possible.\NJust take absolute essentials.
+Dialogue: 0,00:43:58.19,00:44:00.09,Bot,,0000,0000,0000,,Mon Dieu, qu'il est petit !
+Dialogue: 0,00:43:58.74,00:44:00.95,Top,,0000,0000,0000,,My God, how small he is !
+Dialogue: 0,00:44:00.09,00:44:02.99,Bot,,0000,0000,0000,,Les Allemands vont faire\Nsauter la gare de triage.
+Dialogue: 0,00:44:01.42,00:44:03.64,Top,,0000,0000,0000,,The Germans will blow up the railway yards.
+Dialogue: 0,00:44:02.99,00:44:06.99,Bot,,0000,0000,0000,,On disait qu'on pouvait aller quelques\Njours à Genève, le temps de voir venir ?
+Dialogue: 0,00:44:03.69,00:44:07.24,Top,,0000,0000,0000,,They say we could stay several days in Geneva.\NTime to see what happens.
+Dialogue: 0,00:44:07.40,00:44:08.80,Bot,,0000,0000,0000,,Mais, lui...?
+Dialogue: 0,00:44:07.52,00:44:09.12,Top,,0000,0000,0000,,But, him... ?
+Dialogue: 0,00:44:12.00,00:44:15.30,Top,,0000,0000,0000,,We'll see. I hope his mother\Ncomes out of it alright.
+Dialogue: 0,00:44:12.80,00:44:15.00,Bot,,0000,0000,0000,,On verra... J'espère\Nque sa mère s'en sortira.
+Dialogue: 0,00:44:16.00,00:44:19.20,Bot,,0000,0000,0000,,Merde! Je n'ai pas laissé\Nmes coordonnées au sergent.
+Dialogue: 0,00:44:16.36,00:44:19.56,Top,,0000,0000,0000,,Shit ! I didn't give my details\Nand whereabouts to the Sergeant.
+Dialogue: 0,00:44:19.73,00:44:21.44,Top,,0000,0000,0000,,What's he called ?
+Dialogue: 0,00:44:20.20,00:44:21.30,Bot,,0000,0000,0000,,Comment il s'appelle ?
+Dialogue: 0,00:44:21.30,00:44:25.10,Bot,,0000,0000,0000,,Sa mère est espagnole.\NElle l'a appelé Te Quiero.
+Dialogue: 0,00:44:22.75,00:44:25.53,Top,,0000,0000,0000,,His mother is Spanish. She called him "Te Quiero".
+Dialogue: 0,00:44:25.10,00:44:27.10,Bot,,0000,0000,0000,,Te Quiero, mais c'est joli Te Quiero.
+Dialogue: 0,00:44:26.40,00:44:30.05,Top,,0000,0000,0000,,Te Quiero, that's lovely.
+Dialogue: 0,00:44:39.10,00:44:41.60,Bot,,0000,0000,0000,,Tu es sûr que c'est prudent de partir?
+Dialogue: 0,00:44:40.20,00:44:41.91,Top,,0000,0000,0000,,You're sure it's wise to leave ?
+Dialogue: 0,00:44:41.60,00:44:42.90,Bot,,0000,0000,0000,,Ben évidemment qu'il faut partir.
+Dialogue: 0,00:44:41.94,00:44:43.55,Top,,0000,0000,0000,,Obviously we have to leave.
+Dialogue: 0,00:44:42.90,00:44:45.60,Bot,,0000,0000,0000,,Mais ce matin tu disais que\Nc'était prudent qu'il y aille et ...
+Dialogue: 0,00:44:43.60,00:44:45.95,Top,,0000,0000,0000,,But this morning you said it was OK\Nfor him to go out, and ...
+Dialogue: 0,00:44:45.60,00:44:48.20,Bot,,0000,0000,0000,,Ne mélange pas tout. Là, les Allemands\Narrivent. Evidemment qu'il faut partir.
+Dialogue: 0,00:44:45.97,00:44:48.57,Top,,0000,0000,0000,,Don't mix everything up please.\NNow the Germans are here. Obviously we have to leave.
+Dialogue: 0,00:44:49.21,00:44:50.31,Bot,,0000,0000,0000,,Mais pour aller où ?
+Dialogue: 0,00:44:49.91,00:44:51.01,Top,,0000,0000,0000,,But to go where ?
+Dialogue: 0,00:44:50.31,00:44:51.81,Bot,,0000,0000,0000,,On pourrait aller chez\NGeorges, j'ai les clés.
+Dialogue: 0,00:44:51.01,00:44:52.86,Top,,0000,0000,0000,,We could go to Georges', I have the keys.
+Dialogue: 0,00:44:51.81,00:44:54.61,Bot,,0000,0000,0000,,Eh bien qu'est-ce qu'on aura\Nde plus à Charbonnières qu'ici ?
+Dialogue: 0,00:44:52.91,00:44:54.66,Top,,0000,0000,0000,,What more will we have at Charbonnières than here ?
+Dialogue: 0,00:44:54.61,00:44:56.51,Bot,,0000,0000,0000,,Bah, au moins c'est de l'autre\Ncôté du fleuve, on sera à l'abri.
+Dialogue: 0,00:44:54.69,00:44:56.86,Top,,0000,0000,0000,,At least it's on the other side of the river.\NWe'll be sheltered.
+Dialogue: 0,00:44:56.51,00:44:59.21,Bot,,0000,0000,0000,,Si les Allemands avaient du mal à passer\Nles fleuves, ils ne seraient pas ici.
+Dialogue: 0,00:44:57.03,00:44:59.73,Top,,0000,0000,0000,,If the Germans had any difficulty\Ncrossing rivers, they wouldn't be here.
+Dialogue: 0,00:45:00.21,00:45:01.71,Bot,,0000,0000,0000,,Maman ?
+Dialogue: 0,00:45:00.63,00:45:01.98,Top,,0000,0000,0000,,Maman ?
+Dialogue: 0,00:45:02.88,00:45:05.64,Top,,0000,0000,0000,,I'm hungry.\NThat's a good sign.
+Dialogue: 0,00:45:03.71,00:45:05.01,Bot,,0000,0000,0000,,J'ai faim. C'est bon signe, ça.
+Dialogue: 0,00:45:05.01,00:45:06.51,Bot,,0000,0000,0000,,Tu as ramené les poulets ?
+Dialogue: 0,00:45:05.71,00:45:06.94,Top,,0000,0000,0000,,Did you bring the chickens ?
+Dialogue: 0,00:45:06.51,00:45:08.61,Bot,,0000,0000,0000,,On a peut-être le temps d'en faire\Ncuire un ou deux pour la route.
+Dialogue: 0,00:45:06.97,00:45:08.84,Top,,0000,0000,0000,,Perhaps we'll have time to cook one or two en-route.
+Dialogue: 0,00:45:08.61,00:45:10.21,Bot,,0000,0000,0000,,Non. A la ferme, il n'y en avait pas.
+Dialogue: 0,00:45:08.91,00:45:10.84,Top,,0000,0000,0000,,No. They didn't have any at the farm.
+Dialogue: 0,00:45:45.22,00:45:48.82,Bot,,0000,0000,0000,,Cet appartement est réquisitionné\Npour opérations militaires.
+Dialogue: 0,00:45:46.80,00:45:49.69,Top,,0000,0000,0000,,This residence is requisitioned for military operations.
+Dialogue: 0,00:45:49.82,00:45:51.32,Bot,,0000,0000,0000,,Vous voudrez bien me dire où est le téléphone.
+Dialogue: 0,00:45:49.87,00:45:51.88,Top,,0000,0000,0000,,Kindly tell me where the telephone is.
+Dialogue: 0,00:45:53.32,00:45:54.62,Bot,,0000,0000,0000,,Le téléphone, s'il vous plait !
+Dialogue: 0,00:45:53.73,00:45:55.45,Top,,0000,0000,0000,,The telephone please !
+Dialogue: 0,00:45:55.62,00:45:57.22,Bot,,0000,0000,0000,,C'est par ici, monsieur.
+Dialogue: 0,00:45:55.91,00:45:57.95,Top,,0000,0000,0000,,It's here Monsieur.
+Dialogue: 0,00:47:01.50,00:47:05.31,Top,,0000,0000,0000,,Subtitles by R Clarke.\NWhitby, Ont. Jan 2014

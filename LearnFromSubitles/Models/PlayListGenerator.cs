@@ -33,7 +33,7 @@ namespace LearnFromSubitles.Models
                     var contains = items.Any(i => i.StartTime >= currentSecond && i.EndTime <= newEndTime);
 
                     // if false add only original, if true add both
-                    var startTime = currentSecond > 0 ? (currentSecond / 1000 - 5) : 0;
+                    var startTime = currentSecond > 0 ? currentSecond / 1000 - 5 : 0;
                     var endTime = startTime + videoInfo.Interval + 5;
 
                     var vlcTargetTrack = new Playlist.VlcTrack

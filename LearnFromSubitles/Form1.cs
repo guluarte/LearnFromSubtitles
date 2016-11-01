@@ -101,23 +101,13 @@ namespace LearnFromSubitles
                 File.WriteAllText(string.Format("{0}{1}.xspf", txtDirectoryPath.Text, videoFile), videoPlayList.ToString());
             }
 
-            MessageBox.Show("Done", "Done");
+            MessageBox.Show("Done", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
         private void chkOnlyAudio_CheckedChanged(object sender, EventArgs e)
         {
             txtTargetPrefix.Enabled = chkOnlyAudio.CheckState != CheckState.Checked;
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtHelperPrefix_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void label9_Click(object sender, EventArgs e)

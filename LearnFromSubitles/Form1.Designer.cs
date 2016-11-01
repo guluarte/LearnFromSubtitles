@@ -211,7 +211,6 @@ namespace LearnFromSubitles
             this.label5.Size = new System.Drawing.Size(109, 13);
             this.label5.TabIndex = 23;
             this.label5.Text = "First Language Prefix:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtHelperPrefix
             // 
@@ -220,7 +219,6 @@ namespace LearnFromSubitles
             this.txtHelperPrefix.Size = new System.Drawing.Size(100, 20);
             this.txtHelperPrefix.TabIndex = 24;
             this.txtHelperPrefix.Text = "en";
-            this.txtHelperPrefix.TextChanged += new System.EventHandler(this.txtHelperPrefix_TextChanged);
             // 
             // label6
             // 

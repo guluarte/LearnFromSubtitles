@@ -61,7 +61,7 @@ namespace LearnFromSubitles
 
             var dirInfo = new DirectoryInfo(txtDirectoryPath.Text);
             var files = dirInfo.GetFiles();
-            var videoExtensions = new []{".mp4",".avi"};
+            var videoExtensions = new[] { ".mp4", ".avi", ".mkv", ".mpg", ".m4v" };
 
             var videoFiles = files.Where(f => !string.IsNullOrWhiteSpace(f.Extension) && videoExtensions.Contains(f.Extension.ToLower()));
 
@@ -111,7 +111,7 @@ namespace LearnFromSubitles
                                 MediaFile = videoFile.ToString(),
                                 Name = string.Format("{0} - {1}", startTime, videoFile),
                                 SubFile = targetSubFile
-                            }; 
+                            };
 
                             playList.AddTrack(vlcHelperTrack);
                         }

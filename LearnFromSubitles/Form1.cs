@@ -21,6 +21,8 @@ namespace LearnFromSubitles
         {
             var fbd = new FolderBrowserDialog();
 
+            var result = fbd.ShowDialog();
+
             if (!string.IsNullOrWhiteSpace(fbd.SelectedPath))
             {
                 txtDirectoryPath.Text = fbd.SelectedPath;
@@ -35,7 +37,7 @@ namespace LearnFromSubitles
                 return;
             }
 
-            if (string.IsNullOrEmpty(txtHelperPrefix.Text))
+            if (string.IsNullOrEmpty(txtHelperPrefix.Text) && !chkOnlyAudio.Checked)
             {
                 MessageBox.Show("Please enter all the prefixes", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -63,15 +65,28 @@ namespace LearnFromSubitles
 
             var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
 
+            var emptyStrFile = "empty.srt";
+
+            if (chkOnlyAudio.Checked)
+            {
+                File.WriteAllText(string.Format("{0}{1}", txtDirectoryPath.Text, emptyStrFile), string.Empty);
+            }
+
             foreach (var videoFile in videoFiles)
             {
                 
                 var targetSubFile = string.Format("{0}.{1}.srt", videoFile, txtTargetPrefix.Text);
+
+                if (chkOnlyAudio.Checked)
+                {
+                    targetSubFile = string.Format("{0}", emptyStrFile);
+                }
+
                 var helperSubFile = string.Format("{0}.{1}.srt", videoFile, txtHelperPrefix.Text);
 
                 var fullTargetSubFile = new FileInfo(string.Format("{0}{1}", txtDirectoryPath.Text, targetSubFile));
 
-                var fullHelperSubFile = new FileInfo(string.Format("{0}{1}", txtDirectoryPath.Text, helperSubFile)); ;
+                var fullHelperSubFile = new FileInfo(string.Format("{0}{1}", txtDirectoryPath.Text, helperSubFile));
 
                 var videoInfo = new VideoInfo
                 {
@@ -87,6 +102,26 @@ namespace LearnFromSubitles
             }
 
             MessageBox.Show("Done", "Done");
+
+        }
+
+        private void chkOnlyAudio_CheckedChanged(object sender, EventArgs e)
+        {
+            txtTargetPrefix.Enabled = chkOnlyAudio.CheckState != CheckState.Checked;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHelperPrefix_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
     }

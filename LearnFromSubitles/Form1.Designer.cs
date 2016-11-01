@@ -48,6 +48,11 @@ namespace LearnFromSubitles
             this.txtHelperPrefix = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtInterval = new System.Windows.Forms.TextBox();
+            this.chkOnlyAudio = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -61,11 +66,16 @@ namespace LearnFromSubitles
             this.tabControl1.Location = new System.Drawing.Point(1, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(648, 163);
+            this.tabControl1.Size = new System.Drawing.Size(648, 321);
             this.tabControl1.TabIndex = 7;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.textBox3);
+            this.tabPage1.Controls.Add(this.label9);
+            this.tabPage1.Controls.Add(this.label8);
+            this.tabPage1.Controls.Add(this.label7);
+            this.tabPage1.Controls.Add(this.chkOnlyAudio);
             this.tabPage1.Controls.Add(this.txtInterval);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.txtHelperPrefix);
@@ -85,7 +95,7 @@ namespace LearnFromSubitles
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(640, 137);
+            this.tabPage1.Size = new System.Drawing.Size(640, 295);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Target and Helper Language";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -179,15 +189,15 @@ namespace LearnFromSubitles
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 46);
+            this.label3.Location = new System.Drawing.Point(231, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 13);
+            this.label3.Size = new System.Drawing.Size(127, 13);
             this.label3.TabIndex = 21;
-            this.label3.Text = "Target Language Prefix:";
+            this.label3.Text = "Second Language Prefix:";
             // 
             // txtTargetPrefix
             // 
-            this.txtTargetPrefix.Location = new System.Drawing.Point(137, 43);
+            this.txtTargetPrefix.Location = new System.Drawing.Point(364, 36);
             this.txtTargetPrefix.Name = "txtTargetPrefix";
             this.txtTargetPrefix.Size = new System.Drawing.Size(100, 20);
             this.txtTargetPrefix.TabIndex = 22;
@@ -196,24 +206,26 @@ namespace LearnFromSubitles
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(243, 46);
+            this.label5.Location = new System.Drawing.Point(10, 39);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 13);
+            this.label5.Size = new System.Drawing.Size(109, 13);
             this.label5.TabIndex = 23;
-            this.label5.Text = "Helper Language Prefix:";
+            this.label5.Text = "First Language Prefix:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtHelperPrefix
             // 
-            this.txtHelperPrefix.Location = new System.Drawing.Point(370, 43);
+            this.txtHelperPrefix.Location = new System.Drawing.Point(125, 36);
             this.txtHelperPrefix.Name = "txtHelperPrefix";
             this.txtHelperPrefix.Size = new System.Drawing.Size(100, 20);
             this.txtHelperPrefix.TabIndex = 24;
             this.txtHelperPrefix.Text = "en";
+            this.txtHelperPrefix.TextChanged += new System.EventHandler(this.txtHelperPrefix_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(477, 46);
+            this.label6.Location = new System.Drawing.Point(476, 46);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 25;
@@ -221,18 +233,69 @@ namespace LearnFromSubitles
             // 
             // txtInterval
             // 
-            this.txtInterval.Location = new System.Drawing.Point(531, 43);
+            this.txtInterval.Location = new System.Drawing.Point(527, 43);
             this.txtInterval.Name = "txtInterval";
             this.txtInterval.Size = new System.Drawing.Size(75, 20);
             this.txtInterval.TabIndex = 26;
             this.txtInterval.Text = "30";
+            // 
+            // chkOnlyAudio
+            // 
+            this.chkOnlyAudio.AutoSize = true;
+            this.chkOnlyAudio.Location = new System.Drawing.Point(365, 62);
+            this.chkOnlyAudio.Name = "chkOnlyAudio";
+            this.chkOnlyAudio.Size = new System.Drawing.Size(76, 17);
+            this.chkOnlyAudio.TabIndex = 28;
+            this.chkOnlyAudio.Text = "Only audio";
+            this.chkOnlyAudio.UseVisualStyleBackColor = true;
+            this.chkOnlyAudio.CheckedChanged += new System.EventHandler(this.chkOnlyAudio_CheckedChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(13, 131);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(562, 13);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Tip: First Language [en] and second language [fr] display the video first with th" +
+    "e subtitles in English and then in French";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(34, 152);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(493, 13);
+            this.label8.TabIndex = 30;
+            this.label8.Text = "First Language [fr] and Only Audio display the video with French subtitles first " +
+    "and then without subtitles.";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 220);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(0, 13);
+            this.label9.TabIndex = 31;
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(10, 203);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(618, 85);
+            this.textBox3.TabIndex = 32;
+            this.textBox3.Text = "Follow this name convention: if the video filename is cnp-uvfs01e01.avi the subti" +
+    "tles should be cnp-uvfs01e01.avi.en.srt and cnp-uvfs01e01.avi.fr.srt. For Audio " +
+    "Only the second subtitle is not needed.";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(650, 166);
+            this.ClientSize = new System.Drawing.Size(650, 324);
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.Name = "MainForm";
@@ -264,6 +327,11 @@ namespace LearnFromSubitles
         private Label label3;
         private TextBox txtInterval;
         private Label label6;
+        private CheckBox chkOnlyAudio;
+        private Label label8;
+        private Label label7;
+        private Label label9;
+        private TextBox textBox3;
 
     }
 }

@@ -109,10 +109,5 @@ namespace LearnFromSubitles
         {
             txtTargetPrefix.Enabled = chkOnlyAudio.CheckState != CheckState.Checked;
         }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

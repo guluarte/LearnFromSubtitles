@@ -15,7 +15,7 @@ For audio only just one subtitle file is needed: http://imgur.com/u0TpHG6
 
 The generated xspf playlist works with the latest version of VLC, after the first install go to preferences and uncheck OSD and "Show media title on video start" http://imgur.com/yPiX0sa
 
-Download: https://github.com/guluarte/LearnFromSubtitles/raw/master/Release.1.0.zip and open LearnFromSubitles.exe
+Download: https://github.com/guluarte/LearnFromSubtitles/raw/master/Release.1.0.1.zip  and open LearnFromSubitles.exe
 
 Source: https://github.com/guluarte/LearnFromSubtitles/
 

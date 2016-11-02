@@ -51,6 +51,7 @@ namespace LearnFromSubitles
 
             // scan for all video files
             var interval = Convert.ToInt16(txtInterval.Text);
+            var probability = Convert.ToInt16(txtProbability.Text);
 
             if (!txtDirectoryPath.Text.EndsWith("\\"))
             {
@@ -93,7 +94,8 @@ namespace LearnFromSubitles
                     TargetSubFile = fullTargetSubFile,
                     HerlperSubFile = fullHelperSubFile,
                     VideoFile = videoFile,
-                    Interval = interval
+                    Interval = interval,
+                    Probability = probability
                 };
 
                 var videoPlayList = PlayListGenerator.GeneratePlayList(videoInfo, parser);

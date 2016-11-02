@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using System.Text;
 using SubtitlesParser.Classes.Parsers;
@@ -11,6 +12,7 @@ namespace LearnFromSubitles.Models
         public FileInfo HerlperSubFile { get; set; }
         public FileInfo TargetSubFile { get; set; }
         public int Interval { get; set; }
+        public short Probability { get; set; }
     }
     class PlayListGenerator
     {
@@ -19,6 +21,8 @@ namespace LearnFromSubitles.Models
             var currentSecond = 0;
 
             var playList = new Playlist();
+
+            var random = new Random();
 
             using (var fileStream = File.OpenRead(videoInfo.HerlperSubFile.FullName))
             {
@@ -47,7 +51,9 @@ namespace LearnFromSubitles.Models
 
                     playList.AddTrack(vlcTargetTrack);
 
-                    if (contains)
+                    var chance = random.Next(0, 100);
+
+                    if (contains && chance < videoInfo.Probability)
                     {
                         var vlcHelperTrack = new Playlist.VlcTrack
                         {

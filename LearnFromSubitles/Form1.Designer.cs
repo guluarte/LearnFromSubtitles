@@ -32,6 +32,8 @@ namespace LearnFromSubitles
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txtProbability = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -53,8 +55,7 @@ namespace LearnFromSubitles
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtProbability = new System.Windows.Forms.TextBox();
+            this.btnVvtToSrt = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -73,6 +74,7 @@ namespace LearnFromSubitles
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnVvtToSrt);
             this.tabPage1.Controls.Add(this.txtProbability);
             this.tabPage1.Controls.Add(this.label10);
             this.tabPage1.Controls.Add(this.textBox3);
@@ -103,6 +105,23 @@ namespace LearnFromSubitles
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Target and Helper Language";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // txtProbability
+            // 
+            this.txtProbability.Location = new System.Drawing.Point(207, 62);
+            this.txtProbability.Name = "txtProbability";
+            this.txtProbability.Size = new System.Drawing.Size(47, 20);
+            this.txtProbability.TabIndex = 34;
+            this.txtProbability.Text = "100";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(14, 64);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(191, 13);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "Show Second Language % of the time:";
             // 
             // textBox3
             // 
@@ -207,7 +226,7 @@ namespace LearnFromSubitles
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(495, 80);
+            this.btnStart.Location = new System.Drawing.Point(517, 81);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(111, 23);
             this.btnStart.TabIndex = 20;
@@ -231,6 +250,7 @@ namespace LearnFromSubitles
             this.txtDirectoryPath.Name = "txtDirectoryPath";
             this.txtDirectoryPath.Size = new System.Drawing.Size(460, 20);
             this.txtDirectoryPath.TabIndex = 15;
+            this.txtDirectoryPath.Text = "C:\\path\\FrenchVideos";
             // 
             // label4
             // 
@@ -291,22 +311,15 @@ namespace LearnFromSubitles
             this.label1.TabIndex = 7;
             this.label1.Text = "Target Language Subtitle:";
             // 
-            // label10
+            // btnVvtToSrt
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(14, 64);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(191, 13);
-            this.label10.TabIndex = 33;
-            this.label10.Text = "Show Second Language % of the time:";
-            // 
-            // txtProbability
-            // 
-            this.txtProbability.Location = new System.Drawing.Point(207, 62);
-            this.txtProbability.Name = "txtProbability";
-            this.txtProbability.Size = new System.Drawing.Size(47, 20);
-            this.txtProbability.TabIndex = 34;
-            this.txtProbability.Text = "100";
+            this.btnVvtToSrt.Location = new System.Drawing.Point(376, 81);
+            this.btnVvtToSrt.Name = "btnVvtToSrt";
+            this.btnVvtToSrt.Size = new System.Drawing.Size(135, 23);
+            this.btnVvtToSrt.TabIndex = 35;
+            this.btnVvtToSrt.Text = "VVT Subs to SRT";
+            this.btnVvtToSrt.UseVisualStyleBackColor = true;
+            this.btnVvtToSrt.Click += new System.EventHandler(this.btnVvtToSrt_Click);
             // 
             // MainForm
             // 
@@ -352,6 +365,7 @@ namespace LearnFromSubitles
         private TextBox textBox3;
         private TextBox txtProbability;
         private Label label10;
+        private Button btnVvtToSrt;
 
     }
 }

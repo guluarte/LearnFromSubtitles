@@ -32,6 +32,8 @@ namespace LearnFromSubitles
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.rdioSubVtt = new System.Windows.Forms.RadioButton();
+            this.rdioSubSrt = new System.Windows.Forms.RadioButton();
             this.txtProbability = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -55,7 +57,8 @@ namespace LearnFromSubitles
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnVvtToSrt = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtYouTubeUrl = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -69,12 +72,15 @@ namespace LearnFromSubitles
             this.tabControl1.Location = new System.Drawing.Point(1, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(648, 321);
+            this.tabControl1.Size = new System.Drawing.Size(648, 355);
             this.tabControl1.TabIndex = 7;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.btnVvtToSrt);
+            this.tabPage1.Controls.Add(this.txtYouTubeUrl);
+            this.tabPage1.Controls.Add(this.label11);
+            this.tabPage1.Controls.Add(this.rdioSubVtt);
+            this.tabPage1.Controls.Add(this.rdioSubSrt);
             this.tabPage1.Controls.Add(this.txtProbability);
             this.tabPage1.Controls.Add(this.label10);
             this.tabPage1.Controls.Add(this.textBox3);
@@ -101,14 +107,36 @@ namespace LearnFromSubitles
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(640, 295);
+            this.tabPage1.Size = new System.Drawing.Size(640, 329);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Target and Helper Language";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // rdioSubVtt
+            // 
+            this.rdioSubVtt.AutoSize = true;
+            this.rdioSubVtt.Location = new System.Drawing.Point(533, 96);
+            this.rdioSubVtt.Name = "rdioSubVtt";
+            this.rdioSubVtt.Size = new System.Drawing.Size(46, 17);
+            this.rdioSubVtt.TabIndex = 38;
+            this.rdioSubVtt.TabStop = true;
+            this.rdioSubVtt.Text = "VTT";
+            this.rdioSubVtt.UseVisualStyleBackColor = true;
+            // 
+            // rdioSubSrt
+            // 
+            this.rdioSubSrt.AutoSize = true;
+            this.rdioSubSrt.Location = new System.Drawing.Point(470, 96);
+            this.rdioSubSrt.Name = "rdioSubSrt";
+            this.rdioSubSrt.Size = new System.Drawing.Size(47, 17);
+            this.rdioSubSrt.TabIndex = 37;
+            this.rdioSubSrt.TabStop = true;
+            this.rdioSubSrt.Text = "SRT";
+            this.rdioSubSrt.UseVisualStyleBackColor = true;
+            // 
             // txtProbability
             // 
-            this.txtProbability.Location = new System.Drawing.Point(207, 62);
+            this.txtProbability.Location = new System.Drawing.Point(204, 96);
             this.txtProbability.Name = "txtProbability";
             this.txtProbability.Size = new System.Drawing.Size(47, 20);
             this.txtProbability.TabIndex = 34;
@@ -117,7 +145,7 @@ namespace LearnFromSubitles
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(14, 64);
+            this.label10.Location = new System.Drawing.Point(7, 98);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(191, 13);
             this.label10.TabIndex = 33;
@@ -125,19 +153,19 @@ namespace LearnFromSubitles
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(10, 203);
+            this.textBox3.Location = new System.Drawing.Point(10, 227);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(618, 85);
             this.textBox3.TabIndex = 32;
             this.textBox3.Text = "Follow this name convention: if the video filename is cnp-uvfs01e01.avi the subti" +
-    "tles should be cnp-uvfs01e01.avi.en.srt and cnp-uvfs01e01.avi.fr.srt. For Audio " +
-    "Only the second subtitle is not needed.";
+    "tles should be cnp-uvfs01e01.en.srt and cnp-uvfs01e01.fr.srt. For Audio Only the" +
+    " second subtitle is not needed.";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 220);
+            this.label9.Location = new System.Drawing.Point(13, 244);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 31;
@@ -145,7 +173,7 @@ namespace LearnFromSubitles
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(34, 152);
+            this.label8.Location = new System.Drawing.Point(34, 176);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(493, 13);
             this.label8.TabIndex = 30;
@@ -155,7 +183,7 @@ namespace LearnFromSubitles
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 131);
+            this.label7.Location = new System.Drawing.Point(13, 155);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(562, 13);
             this.label7.TabIndex = 29;
@@ -165,7 +193,7 @@ namespace LearnFromSubitles
             // chkOnlyAudio
             // 
             this.chkOnlyAudio.AutoSize = true;
-            this.chkOnlyAudio.Location = new System.Drawing.Point(365, 62);
+            this.chkOnlyAudio.Location = new System.Drawing.Point(388, 96);
             this.chkOnlyAudio.Name = "chkOnlyAudio";
             this.chkOnlyAudio.Size = new System.Drawing.Size(76, 17);
             this.chkOnlyAudio.TabIndex = 28;
@@ -175,7 +203,7 @@ namespace LearnFromSubitles
             // 
             // txtInterval
             // 
-            this.txtInterval.Location = new System.Drawing.Point(527, 43);
+            this.txtInterval.Location = new System.Drawing.Point(527, 67);
             this.txtInterval.Name = "txtInterval";
             this.txtInterval.Size = new System.Drawing.Size(75, 20);
             this.txtInterval.TabIndex = 26;
@@ -184,7 +212,7 @@ namespace LearnFromSubitles
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(476, 46);
+            this.label6.Location = new System.Drawing.Point(476, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 25;
@@ -192,7 +220,7 @@ namespace LearnFromSubitles
             // 
             // txtHelperPrefix
             // 
-            this.txtHelperPrefix.Location = new System.Drawing.Point(125, 36);
+            this.txtHelperPrefix.Location = new System.Drawing.Point(125, 67);
             this.txtHelperPrefix.Name = "txtHelperPrefix";
             this.txtHelperPrefix.Size = new System.Drawing.Size(100, 20);
             this.txtHelperPrefix.TabIndex = 24;
@@ -201,7 +229,7 @@ namespace LearnFromSubitles
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 39);
+            this.label5.Location = new System.Drawing.Point(7, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 13);
             this.label5.TabIndex = 23;
@@ -209,7 +237,7 @@ namespace LearnFromSubitles
             // 
             // txtTargetPrefix
             // 
-            this.txtTargetPrefix.Location = new System.Drawing.Point(364, 36);
+            this.txtTargetPrefix.Location = new System.Drawing.Point(364, 67);
             this.txtTargetPrefix.Name = "txtTargetPrefix";
             this.txtTargetPrefix.Size = new System.Drawing.Size(100, 20);
             this.txtTargetPrefix.TabIndex = 22;
@@ -218,7 +246,7 @@ namespace LearnFromSubitles
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(231, 39);
+            this.label3.Location = new System.Drawing.Point(231, 70);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(127, 13);
             this.label3.TabIndex = 21;
@@ -226,7 +254,7 @@ namespace LearnFromSubitles
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(517, 81);
+            this.btnStart.Location = new System.Drawing.Point(517, 129);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(111, 23);
             this.btnStart.TabIndex = 20;
@@ -236,7 +264,7 @@ namespace LearnFromSubitles
             // 
             // btnBrowseDirectory
             // 
-            this.btnBrowseDirectory.Location = new System.Drawing.Point(531, 8);
+            this.btnBrowseDirectory.Location = new System.Drawing.Point(531, 32);
             this.btnBrowseDirectory.Name = "btnBrowseDirectory";
             this.btnBrowseDirectory.Size = new System.Drawing.Size(75, 23);
             this.btnBrowseDirectory.TabIndex = 16;
@@ -246,16 +274,15 @@ namespace LearnFromSubitles
             // 
             // txtDirectoryPath
             // 
-            this.txtDirectoryPath.Location = new System.Drawing.Point(65, 10);
+            this.txtDirectoryPath.Location = new System.Drawing.Point(65, 34);
             this.txtDirectoryPath.Name = "txtDirectoryPath";
             this.txtDirectoryPath.Size = new System.Drawing.Size(460, 20);
             this.txtDirectoryPath.TabIndex = 15;
-            this.txtDirectoryPath.Text = "C:\\path\\FrenchVideos";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 12);
+            this.label4.Location = new System.Drawing.Point(7, 36);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 14;
@@ -311,22 +338,29 @@ namespace LearnFromSubitles
             this.label1.TabIndex = 7;
             this.label1.Text = "Target Language Subtitle:";
             // 
-            // btnVvtToSrt
+            // label11
             // 
-            this.btnVvtToSrt.Location = new System.Drawing.Point(376, 81);
-            this.btnVvtToSrt.Name = "btnVvtToSrt";
-            this.btnVvtToSrt.Size = new System.Drawing.Size(135, 23);
-            this.btnVvtToSrt.TabIndex = 35;
-            this.btnVvtToSrt.Text = "VVT Subs to SRT";
-            this.btnVvtToSrt.UseVisualStyleBackColor = true;
-            this.btnVvtToSrt.Click += new System.EventHandler(this.btnVvtToSrt_Click);
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(7, 11);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(79, 13);
+            this.label11.TabIndex = 39;
+            this.label11.Text = "YouTube URL:";
+            // 
+            // txtYouTubeUrl
+            // 
+            this.txtYouTubeUrl.Location = new System.Drawing.Point(93, 7);
+            this.txtYouTubeUrl.Name = "txtYouTubeUrl";
+            this.txtYouTubeUrl.Size = new System.Drawing.Size(509, 20);
+            this.txtYouTubeUrl.TabIndex = 40;
+            this.txtYouTubeUrl.Tag = "";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(650, 324);
+            this.ClientSize = new System.Drawing.Size(650, 369);
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.Name = "MainForm";
@@ -365,8 +399,10 @@ namespace LearnFromSubitles
         private TextBox textBox3;
         private TextBox txtProbability;
         private Label label10;
-        private Button btnVvtToSrt;
-
+        private RadioButton rdioSubVtt;
+        private RadioButton rdioSubSrt;
+        private Label label11;
+        private TextBox txtYouTubeUrl;
     }
 }
 

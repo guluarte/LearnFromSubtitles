@@ -59,5 +59,68 @@ namespace LearnFromSubitles.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Done.
+        /// </summary>
+        internal static string Done {
+            get {
+                return ResourceManager.GetString("Done", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to \.
+        /// </summary>
+        internal static string End_Dir_Prefix {
+            get {
+                return ResourceManager.GetString("End_Dir_Prefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error Processing Video: {0}.
+        /// </summary>
+        internal static string Error_Processing_Video {
+            get {
+                return ResourceManager.GetString("Error_Processing_Video", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter all the prefixes.
+        /// </summary>
+        internal static string Please_enter_all_the_prefixes {
+            get {
+                return ResourceManager.GetString("Please_enter_all_the_prefixes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please select a directory.
+        /// </summary>
+        internal static string Please_select_a_directory {
+            get {
+                return ResourceManager.GetString("Please_select_a_directory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Srt or Vtt.
+        /// </summary>
+        internal static string Select_Srt_or_Vtt {
+            get {
+                return ResourceManager.GetString("Select_Srt_or_Vtt", resourceCulture);
+            }
+        }
     }
 }

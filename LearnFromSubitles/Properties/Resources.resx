@@ -114,4 +114,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Please_select_a_directory" xml:space="preserve">
+    <value>Please select a directory</value>
+  </data>
+  <data name="Please_enter_all_the_prefixes" xml:space="preserve">
+    <value>Please enter all the prefixes</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Select_Srt_or_Vtt" xml:space="preserve">
+    <value>Select Srt or Vtt</value>
+  </data>
+  <data name="End_Dir_Prefix" xml:space="preserve">
+    <value>\</value>
+  </data>
+  <data name="Error_Processing_Video" xml:space="preserve">
+    <value>Error Processing Video: {0}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
 </root>

@@ -2,12 +2,11 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 using LearnFromSubitles.Models;
+using LearnFromSubitles.Properties;
 using SubtitlesParser.Classes.Parsers;
 
 namespace LearnFromSubitles
@@ -23,7 +22,7 @@ namespace LearnFromSubitles
         {
             var fbd = new FolderBrowserDialog();
 
-            var result = fbd.ShowDialog();
+            fbd.ShowDialog();
 
             if (!string.IsNullOrWhiteSpace(fbd.SelectedPath))
             {
@@ -35,25 +34,25 @@ namespace LearnFromSubitles
         {
             if (string.IsNullOrEmpty(txtDirectoryPath.Text))
             {
-                MessageBox.Show("Please select a directory", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.Please_select_a_directory, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (string.IsNullOrEmpty(txtHelperPrefix.Text) && !chkOnlyAudio.Checked)
             {
-                MessageBox.Show("Please enter all the prefixes", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.Please_enter_all_the_prefixes, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (string.IsNullOrEmpty(txtTargetPrefix.Text))
             {
-                MessageBox.Show("Please enter all the prefixes", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.Please_enter_all_the_prefixes, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if ( (!rdioSubSrt.Checked && !rdioSubVtt.Checked) && string.IsNullOrWhiteSpace(txtYouTubeUrl.Text))
             {
-                MessageBox.Show("Select Srt or Vtt", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.Select_Srt_or_Vtt, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -64,7 +63,7 @@ namespace LearnFromSubitles
 
                 if (!txtDirectoryPath.Text.EndsWith("\\"))
                 {
-                    txtDirectoryPath.Text += "\\";
+                    txtDirectoryPath.Text += Resources.End_Dir_Prefix;
                 }
 
                 //if youtube url download the video
@@ -147,15 +146,15 @@ namespace LearnFromSubitles
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message, $"Error Processing Video: {videoFileNameWithoutExt}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(ex.Message, string.Format(Resources.Error_Processing_Video, videoFileNameWithoutExt), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
 
-                MessageBox.Show("Done", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Resources.Done, Resources.Done, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
